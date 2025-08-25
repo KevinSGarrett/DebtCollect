@@ -1,0 +1,133 @@
+ubuntu@ip-172-31-28-17:~$ -- 1) Rebuild debtor pointer FKs with ON DELETE SET NULL
+-bash: syntax error near unexpected token `)'
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtors DROP CONSTRAINT IF EXISTS debtors_best_phone_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtors ADD  CONSTRAINT debtors_best_phone_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (best_phone_id) REFERENCES public.phones(id) ON DELETE SET NULL ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtors DROP CONSTRAINT IF EXISTS debtors_best_email_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtors ADD  CONSTRAINT debtors_best_email_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (best_email_id) REFERENCES public.emails(id) ON DELETE SET NULL ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtors DROP CONSTRAINT IF EXISTS debtors_standardized_address_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtors ADD  CONSTRAINT debtors_standardized_address_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (standardized_address_id) REFERENCES public.addresses(id) ON DELETE SET NULL ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ -- 2) Rebuild child FKs with ON DELETE CASCADE
+-bash: syntax error near unexpected token `)'
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.addresses         DROP CONSTRAINT IF EXISTS addresses_debtor_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.addresses         ADD  CONSTRAINT addresses_debtor_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (debtor_id) REFERENCES public.debtors(id) ON DELETE CASCADE ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.phones            DROP CONSTRAINT IF EXISTS phones_debtor_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.phones            ADD  CONSTRAINT phones_debtor_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (debtor_id) REFERENCES public.debtors(id) ON DELETE CASCADE ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.emails            DROP CONSTRAINT IF EXISTS emails_debtor_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.emails            ADD  CONSTRAINT emails_debtor_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (debtor_id) REFERENCES public.debtors(id) ON DELETE CASCADE ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.bankruptcy_cases  DROP CONSTRAINT IF EXISTS bankruptcy_cases_debtor_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.bankruptcy_cases  ADD  CONSTRAINT bankruptcy_cases_debtor_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (debtor_id) REFERENCES public.debtors(id) ON DELETE CASCADE ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.properties        DROP CONSTRAINT IF EXISTS properties_debtor_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.properties        ADD  CONSTRAINT properties_debtor_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (debtor_id) REFERENCES public.debtors(id) ON DELETE CASCADE ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.enrichment_runs   DROP CONSTRAINT IF EXISTS enrichment_runs_debtor_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.enrichment_runs   ADD  CONSTRAINT enrichment_runs_debtor_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (debtor_id) REFERENCES public.debtors(id) ON DELETE CASCADE ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.scoring_snapshots DROP CONSTRAINT IF EXISTS scoring_snapshots_debtor_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.scoring_snapshots ADD  CONSTRAINT scoring_snapshots_debtor_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (debtor_id) REFERENCES public.debtors(id) ON DELETE CASCADE ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtor_businesses DROP CONSTRAINT IF EXISTS debtor_businesses_debtor_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtor_businesses ADD  CONSTRAINT debtor_businesses_debtor_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (debtor_id) REFERENCES public.debtors(id) ON DELETE CASCADE ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtor_businesses DROP CONSTRAINT IF EXISTS debtor_businesses_business_id_foreign;
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtor_businesses ADD  CONSTRAINT debtor_businesses_business_id_foreign
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   FOREIGN KEY (business_id) REFERENCES public.businesses(id) ON DELETE CASCADE ON UPDATE NO ACTION;
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ -- 3) Make properties.zip consistent + validation (matches debtors.zip)
+-bash: syntax error near unexpected token `)'
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.properties
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   ALTER COLUMN zip TYPE varchar(10) USING LEFT(TRIM(zip), 10);
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.properties
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   DROP CONSTRAINT IF EXISTS chk_properties_zip,
+DROP: command not found
+ubuntu@ip-172-31-28-17:~$   ADD  CONSTRAINT chk_properties_zip CHECK (zip ~ '^[0-9]{5}(-[0-9]{4})?$');
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ -- 4) Latest-score lookup index
+-bash: syntax error near unexpected token `)'
+ubuntu@ip-172-31-28-17:~$ CREATE INDEX IF NOT EXISTS idx_scoring_snapshots_debtor_latest
+CREATE: command not found
+ubuntu@ip-172-31-28-17:~$   ON public.scoring_snapshots (debtor_id, created_at DESC);
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ -- 5) Default currency (optional but handy)
+-bash: syntax error near unexpected token `)'
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtors
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$   ALTER COLUMN currency SET DEFAULT 'USD';
+ALTER: command not found
+ubuntu@ip-172-31-28-17:~$
+ubuntu@ip-172-31-28-17:~$ -- 6) (Optional) created_at defaults for non-Directus writers
+-bash: syntax error near unexpected token `)'
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.debtors           ALTER COLUMN created_at SET DEFAULT now();
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.addresses         ALTER COLUMN created_at SET DEFAULT now();
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.phones            ALTER COLUMN created_at SET DEFAULT now();
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.emails            ALTER COLUMN created_at SET DEFAULT now();
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.properties        ALTER COLUMN last_checked_at SET DEFAULT now(); -- if you prefer
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.scoring_snapshots ALTER COLUMN created_at SET DEFAULT now();
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$ ALTER TABLE public.enrichment_runs   ALTER COLUMN started_at    SET DEFAULT now();
+-bash: syntax error near unexpected token `('
+ubuntu@ip-172-31-28-17:~$

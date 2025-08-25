@@ -1,0 +1,33 @@
+﻿{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run:collectibility",
+      "type": "shell",
+      "command": ".venv\\Scripts\\python.exe -m workflows.collectibility_workflow --csv data\\sample_input.csv",
+      "problemMatcher": []
+    },
+    {
+      "label": "gate",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", "scripts\\quality_gate.ps1"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "venv:create",
+      "type": "shell",
+      "command": "python -m venv .venv",
+      "problemMatcher": []
+    },
+    {
+      "label": "deps:install",
+      "type": "shell",
+      "command": ".venv\\Scripts\\python.exe -m pip install -U pip && .venv\\Scripts\\pip.exe install -r requirements.txt",
+      "problemMatcher": []
+    }
+  ]
+}

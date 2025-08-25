@@ -1,0 +1,1264 @@
+2025-08-24 22:09:52,730 INFO cc49a75c-b893-43a5-9e26-744fa9a80199 debt_enrichment - Found 0 debtors to enrich
+2025-08-24 22:12:39,255 INFO b630704c-8a54-494c-b19d-75cada518ed7 debt_enrichment - Found 1 debtors to enrich
+2025-08-24 22:12:39,809 INFO b630704c-8a54-494c-b19d-75cada518ed7 debt_enrichment - Debtor 7 stage=usps seconds=0.32
+2025-08-24 22:12:45,909 WARNING b630704c-8a54-494c-b19d-75cada518ed7 debt_enrichment - Apify skip-trace failed debtor 7: Expecting value: line 1 column 1 (char 0)
+2025-08-24 22:12:45,912 INFO b630704c-8a54-494c-b19d-75cada518ed7 debt_enrichment - Debtor 7 stage=skiptrace_apify seconds=6.10
+2025-08-24 22:12:46,307 INFO b630704c-8a54-494c-b19d-75cada518ed7 debt_enrichment - Debtor 7 stage=verify_contacts seconds=0.31
+2025-08-24 22:12:57,447 INFO b630704c-8a54-494c-b19d-75cada518ed7 debt_enrichment - Debtor 7 stage=bankruptcy seconds=11.14
+2025-08-24 22:12:57,979 INFO b630704c-8a54-494c-b19d-75cada518ed7 debt_enrichment - Debtor 7 stage=property_value seconds=0.53
+2025-08-24 22:12:58,609 INFO b630704c-8a54-494c-b19d-75cada518ed7 debt_enrichment - Debtor 7 stage=business_lookup seconds=0.56
+2025-08-24 22:12:59,009 INFO b630704c-8a54-494c-b19d-75cada518ed7 debt_enrichment - Debtor 7 stage=scoring seconds=0.32
+2025-08-24 22:15:53,878 INFO f876293f-a78b-4534-9401-5b979e3e48f7 debt_enrichment - Found 0 debtors to enrich
+2025-08-24 22:17:41,042 INFO 6b8aeaf7-4c0f-4963-a7e7-fd9ff7e9d486 debt_enrichment - Found 1 debtors to enrich
+2025-08-24 22:17:52,617 INFO 6b8aeaf7-4c0f-4963-a7e7-fd9ff7e9d486 debt_enrichment - Debtor 7 stage=usps seconds=11.35
+2025-08-24 22:17:56,459 WARNING 6b8aeaf7-4c0f-4963-a7e7-fd9ff7e9d486 debt_enrichment - Apify skip-trace failed debtor 7: Expecting value: line 1 column 1 (char 0)
+2025-08-24 22:17:56,461 INFO 6b8aeaf7-4c0f-4963-a7e7-fd9ff7e9d486 debt_enrichment - Debtor 7 stage=skiptrace_apify seconds=3.84
+2025-08-24 22:17:56,794 INFO 6b8aeaf7-4c0f-4963-a7e7-fd9ff7e9d486 debt_enrichment - Debtor 7 stage=verify_contacts seconds=0.26
+2025-08-24 22:17:56,934 INFO 6b8aeaf7-4c0f-4963-a7e7-fd9ff7e9d486 debt_enrichment - Debtor 7 stage=bankruptcy seconds=0.14
+2025-08-24 22:17:57,350 INFO 6b8aeaf7-4c0f-4963-a7e7-fd9ff7e9d486 debt_enrichment - Debtor 7 stage=property_value seconds=0.41
+2025-08-24 22:17:57,918 INFO 6b8aeaf7-4c0f-4963-a7e7-fd9ff7e9d486 debt_enrichment - Debtor 7 stage=business_lookup seconds=0.50
+2025-08-24 22:17:58,302 INFO 6b8aeaf7-4c0f-4963-a7e7-fd9ff7e9d486 debt_enrichment - Debtor 7 stage=scoring seconds=0.31
+2025-08-24 22:21:38,261 INFO 5831b995-6b50-4e4f-a7a7-bb48d20e21b3 debt_enrichment - Found 1 debtors to enrich
+2025-08-24 22:21:38,821 INFO 5831b995-6b50-4e4f-a7a7-bb48d20e21b3 debt_enrichment - Debtor 7 stage=usps seconds=0.34
+2025-08-24 22:21:46,778 INFO 5831b995-6b50-4e4f-a7a7-bb48d20e21b3 debt_enrichment - Debtor 7 stage=skiptrace_apify seconds=7.96
+2025-08-24 22:21:47,166 INFO 5831b995-6b50-4e4f-a7a7-bb48d20e21b3 debt_enrichment - Debtor 7 stage=verify_contacts seconds=0.31
+2025-08-24 22:21:47,306 INFO 5831b995-6b50-4e4f-a7a7-bb48d20e21b3 debt_enrichment - Debtor 7 stage=bankruptcy seconds=0.14
+2025-08-24 22:21:47,762 INFO 5831b995-6b50-4e4f-a7a7-bb48d20e21b3 debt_enrichment - Debtor 7 stage=property_value seconds=0.45
+2025-08-24 22:21:48,322 INFO 5831b995-6b50-4e4f-a7a7-bb48d20e21b3 debt_enrichment - Debtor 7 stage=business_lookup seconds=0.49
+2025-08-24 22:21:48,703 INFO 5831b995-6b50-4e4f-a7a7-bb48d20e21b3 debt_enrichment - Debtor 7 stage=scoring seconds=0.31
+2025-08-24 22:30:31,999 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Found 2 debtors to enrich
+2025-08-24 22:30:43,755 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 8 stage=usps seconds=11.56
+2025-08-24 22:30:51,627 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 8 stage=skiptrace_apify seconds=7.87
+2025-08-24 22:30:51,990 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 8 stage=verify_contacts seconds=0.29
+2025-08-24 22:30:52,158 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 8 stage=bankruptcy seconds=0.17
+2025-08-24 22:30:52,801 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 8 stage=property_value seconds=0.64
+2025-08-24 22:30:53,330 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 8 stage=business_lookup seconds=0.45
+2025-08-24 22:30:53,683 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 8 stage=scoring seconds=0.29
+2025-08-24 22:30:54,358 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 9 stage=usps seconds=0.31
+2025-08-24 22:31:01,752 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 9 stage=skiptrace_apify seconds=7.39
+2025-08-24 22:31:02,132 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 9 stage=verify_contacts seconds=0.31
+2025-08-24 22:31:02,225 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 9 stage=bankruptcy seconds=0.09
+2025-08-24 22:31:02,761 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 9 stage=property_value seconds=0.54
+2025-08-24 22:31:03,339 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 9 stage=business_lookup seconds=0.51
+2025-08-24 22:31:03,699 INFO eb132d19-7d61-46ab-8ea4-742dba59a7ec debt_enrichment - Debtor 9 stage=scoring seconds=0.29
+2025-08-24 22:34:25,180 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Found 2 debtors to enrich
+2025-08-24 22:34:36,799 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 8 stage=usps seconds=11.43
+2025-08-24 22:34:45,109 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 8 stage=skiptrace_apify seconds=8.31
+2025-08-24 22:34:45,474 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 8 stage=verify_contacts seconds=0.30
+2025-08-24 22:34:56,608 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 8 stage=bankruptcy seconds=11.13
+2025-08-24 22:34:57,169 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 8 stage=property_value seconds=0.56
+2025-08-24 22:34:57,670 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 8 stage=business_lookup seconds=0.44
+2025-08-24 22:34:58,059 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 8 stage=scoring seconds=0.32
+2025-08-24 22:34:58,833 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 9 stage=usps seconds=0.42
+2025-08-24 22:35:08,569 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 9 stage=skiptrace_apify seconds=9.73
+2025-08-24 22:35:08,931 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 9 stage=verify_contacts seconds=0.30
+2025-08-24 22:35:09,103 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 9 stage=bankruptcy seconds=0.17
+2025-08-24 22:35:09,548 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 9 stage=property_value seconds=0.44
+2025-08-24 22:35:09,999 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 9 stage=business_lookup seconds=0.39
+2025-08-24 22:35:10,357 INFO c568de18-0bd9-4a70-98d4-77453b4c5dc1 debt_enrichment - Debtor 9 stage=scoring seconds=0.29
+2025-08-24 22:37:56,736 INFO f385b535-699a-47e6-b6f5-7f59c29bd163 debt_enrichment - Found 0 debtors to enrich
+2025-08-24 22:43:50,529 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Found 2 debtors to enrich
+2025-08-24 22:43:51,102 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 8 stage=usps seconds=0.34
+2025-08-24 22:43:56,736 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 8 stage=skiptrace_apify seconds=5.63
+2025-08-24 22:43:57,064 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 8 stage=verify_contacts seconds=0.26
+2025-08-24 22:43:57,231 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 8 stage=bankruptcy seconds=0.17
+2025-08-24 22:43:57,665 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 8 stage=property_value seconds=0.43
+2025-08-24 22:43:58,205 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 8 stage=business_lookup seconds=0.48
+2025-08-24 22:43:58,584 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 8 stage=scoring seconds=0.31
+2025-08-24 22:43:59,182 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 9 stage=usps seconds=0.27
+2025-08-24 22:44:07,295 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 9 stage=skiptrace_apify seconds=8.11
+2025-08-24 22:44:07,649 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 9 stage=verify_contacts seconds=0.28
+2025-08-24 22:44:07,775 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 9 stage=bankruptcy seconds=0.13
+2025-08-24 22:44:19,190 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 9 stage=property_value seconds=11.41
+2025-08-24 22:44:19,752 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 9 stage=business_lookup seconds=0.44
+2025-08-24 22:44:20,141 INFO 0439e2e9-6352-4526-a12a-e407665faec7 debt_enrichment - Debtor 9 stage=scoring seconds=0.32
+2025-08-24 22:48:47,165 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Found 3 debtors to enrich
+2025-08-24 22:48:47,901 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 8 stage=usps seconds=0.45
+2025-08-24 22:48:55,716 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 8 stage=skiptrace_apify seconds=7.81
+2025-08-24 22:48:56,057 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 8 stage=verify_contacts seconds=0.27
+2025-08-24 22:48:56,217 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 8 stage=bankruptcy seconds=0.16
+2025-08-24 22:48:56,666 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 8 stage=property_value seconds=0.45
+2025-08-24 22:49:08,250 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 8 stage=business_lookup seconds=11.46
+2025-08-24 22:49:08,612 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 8 stage=scoring seconds=0.29
+2025-08-24 22:49:09,265 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 9 stage=usps seconds=0.32
+2025-08-24 22:49:16,500 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 9 stage=skiptrace_apify seconds=7.23
+2025-08-24 22:49:16,854 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 9 stage=verify_contacts seconds=0.29
+2025-08-24 22:49:16,951 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 9 stage=bankruptcy seconds=0.09
+2025-08-24 22:49:28,357 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 9 stage=property_value seconds=11.40
+2025-08-24 22:49:28,966 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 9 stage=business_lookup seconds=0.47
+2025-08-24 22:49:29,341 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 9 stage=scoring seconds=0.31
+2025-08-24 22:49:30,010 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 10 stage=usps seconds=0.33
+2025-08-24 22:49:36,441 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 10 stage=skiptrace_apify seconds=6.43
+2025-08-24 22:49:36,800 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 10 stage=verify_contacts seconds=0.30
+2025-08-24 22:49:36,918 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 10 stage=bankruptcy seconds=0.12
+2025-08-24 22:49:37,394 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 10 stage=property_value seconds=0.47
+2025-08-24 22:49:37,859 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 10 stage=business_lookup seconds=0.39
+2025-08-24 22:49:38,249 INFO 98b664b8-8197-4b22-859f-a2afa5f4e693 debt_enrichment - Debtor 10 stage=scoring seconds=0.32
+2025-08-24 22:52:40,954 INFO 9a2d06d4-d9a1-478e-936a-853cff629b6a debt_enrichment - Found 0 debtors to enrich
+2025-08-24 22:57:32,335 INFO bc2817dc-989e-4f62-af02-61b0b6969530 debt_enrichment - Found 0 debtors to enrich
+2025-08-24 23:11:49,026 INFO 3e28f263-2f9e-400e-bdb8-333c65545185 debt_enrichment - Found 1 debtors to enrich
+2025-08-24 23:11:49,877 INFO 3e28f263-2f9e-400e-bdb8-333c65545185 debt_enrichment - Debtor 7 stage=usps seconds=0.63
+2025-08-24 23:11:56,308 INFO 3e28f263-2f9e-400e-bdb8-333c65545185 debt_enrichment - Debtor 7 stage=skiptrace_apify seconds=6.43
+2025-08-24 23:11:56,937 INFO 3e28f263-2f9e-400e-bdb8-333c65545185 debt_enrichment - Debtor 7 stage=verify_contacts seconds=0.55
+2025-08-24 23:11:57,158 INFO 3e28f263-2f9e-400e-bdb8-333c65545185 debt_enrichment - Debtor 7 stage=bankruptcy seconds=0.22
+2025-08-24 23:11:57,675 INFO 3e28f263-2f9e-400e-bdb8-333c65545185 debt_enrichment - Debtor 7 stage=property_value seconds=0.52
+2025-08-24 23:11:58,338 INFO 3e28f263-2f9e-400e-bdb8-333c65545185 debt_enrichment - Debtor 7 stage=business_lookup seconds=0.57
+2025-08-24 23:11:58,746 INFO 3e28f263-2f9e-400e-bdb8-333c65545185 debt_enrichment - Debtor 7 stage=scoring seconds=0.33
+2025-08-24 23:12:26,983 INFO df90f287-87c6-4310-ab1c-4c5ae28e96d5 debt_enrichment - Found 1 debtors to enrich
+2025-08-24 23:12:27,586 INFO df90f287-87c6-4310-ab1c-4c5ae28e96d5 debt_enrichment - Debtor 7 stage=usps seconds=0.38
+2025-08-24 23:12:28,803 INFO df90f287-87c6-4310-ab1c-4c5ae28e96d5 debt_enrichment - Debtor 7 stage=skiptrace_apify seconds=1.22
+2025-08-24 23:12:40,797 INFO df90f287-87c6-4310-ab1c-4c5ae28e96d5 debt_enrichment - Debtor 7 stage=verify_contacts seconds=11.92
+2025-08-24 23:12:40,988 INFO df90f287-87c6-4310-ab1c-4c5ae28e96d5 debt_enrichment - Debtor 7 stage=bankruptcy seconds=0.19
+2025-08-24 23:12:41,525 INFO df90f287-87c6-4310-ab1c-4c5ae28e96d5 debt_enrichment - Debtor 7 stage=property_value seconds=0.54
+2025-08-24 23:12:42,085 INFO df90f287-87c6-4310-ab1c-4c5ae28e96d5 debt_enrichment - Debtor 7 stage=business_lookup seconds=0.48
+2025-08-24 23:12:42,468 INFO df90f287-87c6-4310-ab1c-4c5ae28e96d5 debt_enrichment - Debtor 7 stage=scoring seconds=0.31
+2025-08-24 23:13:56,592 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Found 2 debtors to enrich
+2025-08-24 23:13:57,224 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 8 stage=usps seconds=0.40
+2025-08-24 23:13:57,786 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 8 stage=skiptrace_apify seconds=0.56
+2025-08-24 23:14:00,381 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 8 stage=verify_contacts seconds=2.53
+2025-08-24 23:14:00,555 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 8 stage=bankruptcy seconds=0.17
+2025-08-24 23:14:01,109 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 8 stage=property_value seconds=0.55
+2025-08-24 23:14:01,605 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 8 stage=business_lookup seconds=0.43
+2025-08-24 23:14:02,024 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 8 stage=scoring seconds=0.34
+2025-08-24 23:14:02,644 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 9 stage=usps seconds=0.26
+2025-08-24 23:14:03,152 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 9 stage=skiptrace_apify seconds=0.51
+2025-08-24 23:14:05,831 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 9 stage=verify_contacts seconds=2.61
+2025-08-24 23:14:05,965 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 9 stage=bankruptcy seconds=0.13
+2025-08-24 23:14:06,450 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 9 stage=property_value seconds=0.48
+2025-08-24 23:14:06,974 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 9 stage=business_lookup seconds=0.45
+2025-08-24 23:14:07,368 INFO 9869b790-b663-4df2-bf20-f4ef80e2a34c debt_enrichment - Debtor 9 stage=scoring seconds=0.31
+2025-08-25 11:59:48,264 WARNING f3f7ad11-b382-4a93-90d9-bf3e145a7958 debt_enrichment - Apify skip-trace failed debtor 11: HTTP 400 for http://3.85.34.51:8055/items/phones: {"errors":[{"message":"Invalid payload. Invalid Date format in field \"last_seen\".","extensions":{"reason":"Invalid Date format in field \"last_seen\"","code":"INVALID_PAYLOAD"}}]}
+2025-08-25 12:00:08,464 WARNING f3f7ad11-b382-4a93-90d9-bf3e145a7958 debt_enrichment - Apify skip-trace failed debtor 12: HTTP 400 for http://3.85.34.51:8055/items/phones: {"errors":[{"message":"Invalid payload. Invalid Date format in field \"last_seen\".","extensions":{"reason":"Invalid Date format in field \"last_seen\"","code":"INVALID_PAYLOAD"}}]}
+2025-08-25 12:00:38,410 WARNING f3f7ad11-b382-4a93-90d9-bf3e145a7958 debt_enrichment - Apify skip-trace failed debtor 13: HTTP 400 for http://3.85.34.51:8055/items/phones: {"errors":[{"message":"Invalid payload. Invalid Date format in field \"last_seen\".","extensions":{"reason":"Invalid Date format in field \"last_seen\"","code":"INVALID_PAYLOAD"}}]}
+2025-08-25 12:05:31,007 WARNING 23ab89d5-f4ad-4bfc-b2db-4005e4045424 debt_enrichment - Apify failed for John Smith: Apify error: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/one-api~skip-trace/run-sync?token=invalid_token_that_will_fail, trying RapidAPI fallback
+2025-08-25 12:09:16,586 WARNING f23cb40b-bf47-4647-9621-fbcdafe9ce99 debt_enrichment - Apify failed for John Smith: Apify error: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/one-api~skip-trace/run-sync?token=invalid_token_that_will_fail, trying RapidAPI fallback
+2025-08-25 12:10:15,113 WARNING 3efe5d5c-d64b-4784-ba44-9b8ba55d6de0 debt_enrichment - Apify failed for Jane Doe: Apify error: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/one-api~skip-trace/run-sync?token=invalid_token_that_will_fail, trying RapidAPI fallback
+2025-08-25 12:11:10,739 WARNING 12a3f231-10da-40ac-8d86-acc920f89d72 debt_enrichment - Apify failed for Jane Doe: Apify error: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/one-api~skip-trace/run-sync?token=invalid_token_that_will_fail, trying RapidAPI fallback
+2025-08-25 12:11:54,622 WARNING f8c44cb3-1c32-4f26-b767-41415ece85de debt_enrichment - Apify failed for Jane Doe: Apify error: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/one-api~skip-trace/run-sync?token=invalid_token_that_will_fail, trying RapidAPI fallback
+2025-08-25 12:12:47,446 WARNING 3345d150-5e7c-4ac3-a971-7640c3f02b76 debt_enrichment - Apify failed for Michael Johnson: Apify error: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/one-api~skip-trace/run-sync?token=invalid_token_that_will_fail, trying RapidAPI fallback
+2025-08-25 13:36:20,844 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Verifying contacts for debtor 17: Kevin Garrett
+2025-08-25 13:36:20,962 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Found 5 phones and 4 emails to verify
+2025-08-25 13:36:21,348 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +19362036787: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+19362036787&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:21,546 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +19362036787 failed Twilio verification
+2025-08-25 13:36:21,842 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +19367563417: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+19367563417&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:22,005 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +19367563417 failed Twilio verification
+2025-08-25 13:36:22,306 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +14097565718: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+14097565718&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:22,470 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +14097565718 failed Twilio verification
+2025-08-25 13:36:22,755 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +19365881812: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+19365881812&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:22,912 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +19365881812 failed Twilio verification
+2025-08-25 13:36:23,207 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +13107551584: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+13107551584&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:23,375 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +13107551584 failed Twilio verification
+2025-08-25 13:36:24,161 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email qsenotepad@hotmail.com verified via Hunter.io with score 92
+2025-08-25 13:36:24,929 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email axelheat007@hotmail.com verified via Hunter.io with score 89
+2025-08-25 13:36:25,842 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email kg77harding@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 13:36:26,650 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email bestgscodesaround@hotmail.com failed Hunter.io verification: invalid
+2025-08-25 13:36:26,652 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Best email selected: qsenotepad@hotmail.com (score: 92)
+2025-08-25 13:36:26,715 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Updated debtor 17 with best contacts: {'best_email_id': 62}
+2025-08-25 13:36:26,715 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Verification complete for debtor 17: 0 verified phones, 2 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 13:36:27,489 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Verifying contacts for debtor 18: Dana Garrett
+2025-08-25 13:36:27,578 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Found 3 phones and 3 emails to verify
+2025-08-25 13:36:27,852 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +19362036788: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+19362036788&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:28,027 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +19362036788 failed Twilio verification
+2025-08-25 13:36:28,326 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +19367563418: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+19367563418&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:28,490 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +19367563418 failed Twilio verification
+2025-08-25 13:36:28,796 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +14097565719: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+14097565719&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:28,966 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +14097565719 failed Twilio verification
+2025-08-25 13:36:30,006 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email dana.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 13:36:31,898 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email dgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 13:36:34,494 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email danag@hotmail.com verified via Hunter.io with score 91
+2025-08-25 13:36:34,494 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Best email selected: danag@hotmail.com (score: 91)
+2025-08-25 13:36:34,546 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Updated debtor 18 with best contacts: {'best_email_id': 68}
+2025-08-25 13:36:34,546 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Verification complete for debtor 18: 0 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 13:36:35,338 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Verifying contacts for debtor 19: Linda Garrett
+2025-08-25 13:36:35,429 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Found 3 phones and 3 emails to verify
+2025-08-25 13:36:35,715 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +19362036789: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+19362036789&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:35,873 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +19362036789 failed Twilio verification
+2025-08-25 13:36:36,154 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +19367563419: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+19367563419&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:36,319 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +19367563419 failed Twilio verification
+2025-08-25 13:36:36,625 WARNING 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - RPV verification failed for phone +14097565720: 404 Client Error: Not Found for url: https://api.realphonevalidation.com/v2/Lookup/json?phone=+14097565720&token=9D6320ED-14B5-416B-BD07-6A3AF6EC16E0
+2025-08-25 13:36:36,784 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Phone +14097565720 failed Twilio verification
+2025-08-25 13:36:37,642 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email linda.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 13:36:39,346 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email lgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 13:36:41,693 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Email lindag@hotmail.com verified via Hunter.io with score 92
+2025-08-25 13:36:41,693 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Best email selected: lindag@hotmail.com (score: 92)
+2025-08-25 13:36:41,744 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Updated debtor 19 with best contacts: {'best_email_id': 71}
+2025-08-25 13:36:41,744 INFO 3b77fc1f-949c-4f48-8054-4fa5528b6c67 debt_enrichment - Verification complete for debtor 19: 0 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 13:52:46,476 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Verifying contacts for debtor 20: Kevin Garrett
+2025-08-25 13:52:46,591 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Found 5 phones and 4 emails to verify
+2025-08-25 13:52:47,396 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +19362036787 verified via RPV with score 100
+2025-08-25 13:52:48,679 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +19367563417 verified via RPV with score 100
+2025-08-25 13:52:49,488 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +14097565718 failed RPV verification: invalid-phone
+2025-08-25 13:52:51,309 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +19365881812 failed RPV verification: disconnected
+2025-08-25 13:52:52,092 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +13107551584 verified via RPV with score 100
+2025-08-25 13:52:52,818 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email qsenotepad@hotmail.com verified via Hunter.io with score 92
+2025-08-25 13:52:53,587 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email axelheat007@hotmail.com verified via Hunter.io with score 89
+2025-08-25 13:52:54,270 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email kg77harding@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 13:52:54,921 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email bestgscodesaround@hotmail.com failed Hunter.io verification: invalid
+2025-08-25 13:52:55,019 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed phone +14097565718 (verified=False, match_strength=100)
+2025-08-25 13:52:55,072 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed phone +19365881812 (verified=False, match_strength=100)
+2025-08-25 13:52:55,166 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed email kg77harding@yahoo.com (verified=False, match_strength=100)
+2025-08-25 13:52:55,216 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed email bestgscodesaround@hotmail.com (verified=False, match_strength=100)
+2025-08-25 13:52:55,218 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Best phone selected: +19362036787 (score: 100)
+2025-08-25 13:52:55,218 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Best email selected: qsenotepad@hotmail.com (score: 92)
+2025-08-25 13:52:55,272 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Updated debtor 20 with best contacts: {'best_phone_id': 81, 'best_email_id': 72}
+2025-08-25 13:52:55,272 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Verification complete for debtor 20: 3 verified phones, 2 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 13:53:05,430 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Verifying contacts for debtor 21: Dana Garrett
+2025-08-25 13:53:05,519 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Found 3 phones and 3 emails to verify
+2025-08-25 13:53:06,784 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +19362036788 verified via RPV with score 100
+2025-08-25 13:53:08,569 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +19367563418 failed RPV verification: disconnected
+2025-08-25 13:53:09,355 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +14097565719 failed RPV verification: invalid-phone
+2025-08-25 13:53:10,047 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email dana.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 13:53:10,949 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email dgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 13:53:11,631 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email danag@hotmail.com verified via Hunter.io with score 91
+2025-08-25 13:53:11,729 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed phone +19367563418 (verified=False, match_strength=100)
+2025-08-25 13:53:11,777 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed phone +14097565719 (verified=False, match_strength=100)
+2025-08-25 13:53:11,870 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed email dana.garrett@yahoo.com (verified=False, match_strength=100)
+2025-08-25 13:53:11,917 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed email dgarrett77301@gmail.com (verified=False, match_strength=100)
+2025-08-25 13:53:11,917 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Best phone selected: +19362036788 (score: 100)
+2025-08-25 13:53:11,919 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Best email selected: danag@hotmail.com (score: 91)
+2025-08-25 13:53:11,970 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Updated debtor 21 with best contacts: {'best_phone_id': 86, 'best_email_id': 78}
+2025-08-25 13:53:11,970 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Verification complete for debtor 21: 1 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 13:53:22,390 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Verifying contacts for debtor 22: Linda Garrett
+2025-08-25 13:53:22,480 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Found 3 phones and 3 emails to verify
+2025-08-25 13:53:23,257 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +19362036789 verified via RPV with score 100
+2025-08-25 13:53:24,529 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +19367563419 verified via RPV with score 100
+2025-08-25 13:53:25,293 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Phone +14097565720 failed RPV verification: invalid-phone
+2025-08-25 13:53:25,952 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email linda.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 13:53:26,612 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email lgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 13:53:27,317 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Email lindag@hotmail.com verified via Hunter.io with score 92
+2025-08-25 13:53:27,415 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed phone +14097565720 (verified=False, match_strength=100)
+2025-08-25 13:53:27,511 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed email linda.garrett@yahoo.com (verified=False, match_strength=100)
+2025-08-25 13:53:27,558 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Removed email lgarrett77301@gmail.com (verified=False, match_strength=100)
+2025-08-25 13:53:27,560 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Best phone selected: +19362036789 (score: 100)
+2025-08-25 13:53:27,560 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Best email selected: lindag@hotmail.com (score: 92)
+2025-08-25 13:53:27,619 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Updated debtor 22 with best contacts: {'best_phone_id': 89, 'best_email_id': 81}
+2025-08-25 13:53:27,619 INFO cc9d94e3-b8ed-406e-9cbb-4bc7d9fd58a2 debt_enrichment - Verification complete for debtor 22: 2 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 13:55:27,451 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Verifying contacts for debtor 23: Kevin Garrett
+2025-08-25 13:55:27,570 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Found 5 phones and 4 emails to verify
+2025-08-25 13:55:28,365 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +19362036787 verified via RPV with score 100
+2025-08-25 13:55:29,647 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +19367563417 verified via RPV with score 100
+2025-08-25 13:55:30,409 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +14097565718 failed RPV verification: invalid-phone
+2025-08-25 13:55:32,241 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +19365881812 failed RPV verification: disconnected
+2025-08-25 13:55:33,031 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +13107551584 verified via RPV with score 100
+2025-08-25 13:55:33,837 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email qsenotepad@hotmail.com verified via Hunter.io with score 92
+2025-08-25 13:55:34,714 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email axelheat007@hotmail.com verified via Hunter.io with score 89
+2025-08-25 13:55:35,366 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email kg77harding@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 13:55:36,130 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email bestgscodesaround@hotmail.com failed Hunter.io verification: invalid
+2025-08-25 13:55:36,224 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed phone +14097565718 (verified=False, match_strength=100)
+2025-08-25 13:55:36,271 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed phone +19365881812 (verified=False, match_strength=100)
+2025-08-25 13:55:36,363 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed email kg77harding@yahoo.com (verified=False, match_strength=100)
+2025-08-25 13:55:36,414 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed email bestgscodesaround@hotmail.com (verified=False, match_strength=100)
+2025-08-25 13:55:36,414 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Best phone selected: +19362036787 (score: 100)
+2025-08-25 13:55:36,414 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Best email selected: qsenotepad@hotmail.com (score: 92)
+2025-08-25 13:55:36,466 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Updated debtor 23 with best contacts: {'best_phone_id': 92, 'best_email_id': 82}
+2025-08-25 13:55:36,466 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Verification complete for debtor 23: 3 verified phones, 2 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 13:55:37,682 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Verifying contacts for debtor 24: Dana Garrett
+2025-08-25 13:55:37,785 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Found 3 phones and 3 emails to verify
+2025-08-25 13:55:38,573 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +19362036788 verified via RPV with score 100
+2025-08-25 13:55:39,840 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +19367563418 failed RPV verification: disconnected
+2025-08-25 13:55:40,615 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +14097565719 failed RPV verification: invalid-phone
+2025-08-25 13:55:41,287 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email dana.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 13:55:41,929 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email dgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 13:55:42,755 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email danag@hotmail.com verified via Hunter.io with score 91
+2025-08-25 13:55:42,850 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed phone +19367563418 (verified=False, match_strength=100)
+2025-08-25 13:55:42,894 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed phone +14097565719 (verified=False, match_strength=100)
+2025-08-25 13:55:42,992 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed email dana.garrett@yahoo.com (verified=False, match_strength=100)
+2025-08-25 13:55:43,038 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed email dgarrett77301@gmail.com (verified=False, match_strength=100)
+2025-08-25 13:55:43,038 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Best phone selected: +19362036788 (score: 100)
+2025-08-25 13:55:43,039 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Best email selected: danag@hotmail.com (score: 91)
+2025-08-25 13:55:43,090 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Updated debtor 24 with best contacts: {'best_phone_id': 97, 'best_email_id': 88}
+2025-08-25 13:55:43,090 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Verification complete for debtor 24: 1 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 13:55:44,207 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Verifying contacts for debtor 25: Linda Garrett
+2025-08-25 13:55:44,301 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Found 3 phones and 3 emails to verify
+2025-08-25 13:55:45,051 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +19362036789 verified via RPV with score 100
+2025-08-25 13:55:45,814 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +19367563419 verified via RPV with score 100
+2025-08-25 13:55:46,596 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Phone +14097565720 failed RPV verification: invalid-phone
+2025-08-25 13:55:47,433 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email linda.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 13:55:48,087 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email lgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 13:55:48,788 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Email lindag@hotmail.com verified via Hunter.io with score 92
+2025-08-25 13:55:48,882 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed phone +14097565720 (verified=False, match_strength=100)
+2025-08-25 13:55:48,973 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed email linda.garrett@yahoo.com (verified=False, match_strength=100)
+2025-08-25 13:55:49,021 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Removed email lgarrett77301@gmail.com (verified=False, match_strength=100)
+2025-08-25 13:55:49,021 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Best phone selected: +19362036789 (score: 100)
+2025-08-25 13:55:49,023 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Best email selected: lindag@hotmail.com (score: 92)
+2025-08-25 13:55:49,074 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Updated debtor 25 with best contacts: {'best_phone_id': 100, 'best_email_id': 91}
+2025-08-25 13:55:49,074 INFO 37c4ee51-0fea-4b1e-bb6d-97b7a8c56eb1 debt_enrichment - Verification complete for debtor 25: 2 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 14:07:25,164 WARNING d25bf94f-53e1-4467-a43d-1149789db76d debt_enrichment - Bankruptcy search failed for debtor 26: HTTPSConnectionPool(host='www.courtlistener.com', port=443): Read timed out. (read timeout=30)
+2025-08-25 14:07:55,484 WARNING d25bf94f-53e1-4467-a43d-1149789db76d debt_enrichment - Bankruptcy search failed for debtor 27: HTTPSConnectionPool(host='www.courtlistener.com', port=443): Read timed out. (read timeout=30)
+2025-08-25 14:08:25,814 WARNING d25bf94f-53e1-4467-a43d-1149789db76d debt_enrichment - Bankruptcy search failed for debtor 28: HTTPSConnectionPool(host='www.courtlistener.com', port=443): Read timed out. (read timeout=30)
+2025-08-25 20:39:42,476 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Verifying contacts for debtor 35: Kevin Garrett
+2025-08-25 20:39:42,597 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Found 5 phones and 4 emails to verify
+2025-08-25 20:39:44,318 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +19362036787 verified via RPV with score 100
+2025-08-25 20:39:46,364 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +19367563417 verified via RPV with score 100
+2025-08-25 20:39:47,898 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +14097565718 failed RPV verification: invalid-phone
+2025-08-25 20:39:50,034 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +19365881812 failed RPV verification: disconnected
+2025-08-25 20:39:51,532 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +13107551584 verified via RPV with score 100
+2025-08-25 20:39:53,100 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email qsenotepad@hotmail.com verified via Hunter.io with score 92
+2025-08-25 20:39:54,707 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email axelheat007@hotmail.com verified via Hunter.io with score 89
+2025-08-25 20:39:56,453 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email kg77harding@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:39:58,090 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email bestgscodesaround@hotmail.com failed Hunter.io verification: invalid
+2025-08-25 20:39:58,212 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed phone +14097565718 (verified=False, match_strength=100)
+2025-08-25 20:39:58,276 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed phone +19365881812 (verified=False, match_strength=100)
+2025-08-25 20:39:58,399 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed email kg77harding@yahoo.com (verified=False, match_strength=100)
+2025-08-25 20:39:58,459 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed email bestgscodesaround@hotmail.com (verified=False, match_strength=100)
+2025-08-25 20:39:58,459 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Best phone selected: +19362036787 (score: 100)
+2025-08-25 20:39:58,460 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Best email selected: qsenotepad@hotmail.com (score: 92)
+2025-08-25 20:39:58,525 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Updated debtor 35 with best contacts: {'best_phone_id': 103, 'best_email_id': 92}
+2025-08-25 20:39:58,526 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Verification complete for debtor 35: 3 verified phones, 2 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:40:00,121 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Verifying contacts for debtor 36: Dana Garrett
+2025-08-25 20:40:00,231 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Found 3 phones and 3 emails to verify
+2025-08-25 20:40:01,816 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +19362036788 verified via RPV with score 100
+2025-08-25 20:40:03,865 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +19367563418 failed RPV verification: disconnected
+2025-08-25 20:40:05,371 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +14097565719 failed RPV verification: invalid-phone
+2025-08-25 20:40:07,043 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email dana.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:40:08,624 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email dgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 20:40:10,304 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email danag@hotmail.com verified via Hunter.io with score 91
+2025-08-25 20:40:10,423 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed phone +19367563418 (verified=False, match_strength=100)
+2025-08-25 20:40:10,483 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed phone +14097565719 (verified=False, match_strength=100)
+2025-08-25 20:40:10,602 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed email dana.garrett@yahoo.com (verified=False, match_strength=100)
+2025-08-25 20:40:10,661 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed email dgarrett77301@gmail.com (verified=False, match_strength=100)
+2025-08-25 20:40:10,661 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Best phone selected: +19362036788 (score: 100)
+2025-08-25 20:40:10,661 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Best email selected: danag@hotmail.com (score: 91)
+2025-08-25 20:40:10,735 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Updated debtor 36 with best contacts: {'best_phone_id': 108, 'best_email_id': 98}
+2025-08-25 20:40:10,736 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Verification complete for debtor 36: 1 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:40:12,170 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Verifying contacts for debtor 37: Linda Garrett
+2025-08-25 20:40:12,275 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Found 3 phones and 3 emails to verify
+2025-08-25 20:40:13,964 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +19362036789 verified via RPV with score 100
+2025-08-25 20:40:15,584 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +19367563419 verified via RPV with score 100
+2025-08-25 20:40:17,172 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Phone +14097565720 failed RPV verification: invalid-phone
+2025-08-25 20:40:18,891 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email linda.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:40:20,361 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email lgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 20:40:21,951 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Email lindag@hotmail.com verified via Hunter.io with score 92
+2025-08-25 20:40:22,065 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed phone +14097565720 (verified=False, match_strength=100)
+2025-08-25 20:40:22,183 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed email linda.garrett@yahoo.com (verified=False, match_strength=100)
+2025-08-25 20:40:22,249 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Removed email lgarrett77301@gmail.com (verified=False, match_strength=100)
+2025-08-25 20:40:22,249 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Best phone selected: +19362036789 (score: 100)
+2025-08-25 20:40:22,249 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Best email selected: lindag@hotmail.com (score: 92)
+2025-08-25 20:40:22,315 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Updated debtor 37 with best contacts: {'best_phone_id': 111, 'best_email_id': 101}
+2025-08-25 20:40:22,315 INFO 173986d7-4fb7-4de4-8bc4-91a1584408dc debt_enrichment - Verification complete for debtor 37: 2 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:43:57,416 INFO 27966bea-5dda-4793-9487-e856c8674155 debt_enrichment - Verifying contacts for debtor 1: Kevin Garrett
+2025-08-25 20:43:57,417 INFO 27966bea-5dda-4793-9487-e856c8674155 debt_enrichment - Found 1 phones and 1 emails to verify
+2025-08-25 20:43:57,417 INFO 27966bea-5dda-4793-9487-e856c8674155 debt_enrichment - Phone +12146093136 verified via RPV with score 100
+2025-08-25 20:43:57,417 INFO 27966bea-5dda-4793-9487-e856c8674155 debt_enrichment - Email test@example.com verified via Hunter.io with score 90
+2025-08-25 20:43:57,417 INFO 27966bea-5dda-4793-9487-e856c8674155 debt_enrichment - Best phone selected: +12146093136 (score: 100)
+2025-08-25 20:43:57,419 INFO 27966bea-5dda-4793-9487-e856c8674155 debt_enrichment - Best email selected: test@example.com (score: 90)
+2025-08-25 20:43:57,419 INFO 27966bea-5dda-4793-9487-e856c8674155 debt_enrichment - Updated debtor 1 with best contacts: {'best_phone_id': 1, 'best_email_id': 2}
+2025-08-25 20:43:57,420 INFO 27966bea-5dda-4793-9487-e856c8674155 debt_enrichment - Verification complete for debtor 1: 1 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:46:44,893 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 12 debtors to enrich
+2025-08-25 20:46:45,225 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 11 stage=usps seconds=0.13
+2025-08-25 20:46:45,729 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 11 stage=skiptrace_apify seconds=0.50
+2025-08-25 20:46:45,729 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 11: Kevin Garrett
+2025-08-25 20:46:45,860 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 7 phones and 6 emails to verify
+2025-08-25 20:46:47,635 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19362036787 verified via RPV with score 100
+2025-08-25 20:46:49,295 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19367563417 verified via RPV with score 100
+2025-08-25 20:46:50,976 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +14097565718 failed RPV verification: invalid-phone
+2025-08-25 20:46:53,665 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19365881812 failed RPV verification: disconnected
+2025-08-25 20:46:55,509 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +13107551584 verified via RPV with score 100
+2025-08-25 20:46:57,047 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 verified via RPV with score 100
+2025-08-25 20:46:58,622 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 verified via RPV with score 100
+2025-08-25 20:47:00,273 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email qsenotepad@hotmail.com verified via Hunter.io with score 92
+2025-08-25 20:47:02,145 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email axelheat007@hotmail.com verified via Hunter.io with score 89
+2025-08-25 20:47:03,872 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email kg77harding@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:47:05,459 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email bestgscodesaround@hotmail.com failed Hunter.io verification: invalid
+2025-08-25 20:47:08,435 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:47:10,340 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:47:10,457 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +14097565718 (verified=False, match_strength=100)
+2025-08-25 20:47:10,532 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19365881812 (verified=False, match_strength=100)
+2025-08-25 20:47:10,595 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=True, match_strength=50)
+2025-08-25 20:47:10,657 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=True, match_strength=50)
+2025-08-25 20:47:10,777 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email kg77harding@yahoo.com (verified=False, match_strength=100)
+2025-08-25 20:47:10,837 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email bestgscodesaround@hotmail.com (verified=False, match_strength=100)
+2025-08-25 20:47:10,895 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:47:10,954 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:47:10,954 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best phone selected: +19362036787 (score: 100)
+2025-08-25 20:47:10,955 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: qsenotepad@hotmail.com (score: 92)
+2025-08-25 20:47:11,018 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Updated debtor 11 with best contacts: {'best_phone_id': 21, 'best_email_id': 19}
+2025-08-25 20:47:11,018 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 11: 5 verified phones, 3 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:47:11,085 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 11 stage=verify_contacts seconds=25.29
+2025-08-25 20:47:18,932 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 11 stage=bankruptcy seconds=7.85
+2025-08-25 20:47:19,112 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 11 stage=property_value seconds=0.18
+2025-08-25 20:47:20,883 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 11 stage=business_lookup seconds=1.71
+2025-08-25 20:47:21,276 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 11 stage=scoring seconds=0.33
+2025-08-25 20:47:21,766 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 12 stage=usps seconds=0.14
+2025-08-25 20:47:22,248 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 12 stage=skiptrace_apify seconds=0.48
+2025-08-25 20:47:22,249 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 12: Dana Garrett
+2025-08-25 20:47:22,364 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 17 phones and 12 emails to verify
+2025-08-25 20:47:23,957 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19365227648 verified via RPV with score 100
+2025-08-25 20:47:25,525 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19367563417 verified via RPV with score 100
+2025-08-25 20:47:26,990 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19365881812 failed RPV verification: disconnected
+2025-08-25 20:47:28,578 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +14097563417 failed RPV verification: invalid-phone
+2025-08-25 20:47:30,235 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +14097566889 failed RPV verification: invalid-phone
+2025-08-25 20:47:31,648 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +18322825781 verified via RPV with score 100
+2025-08-25 20:47:33,142 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +18322829388 verified via RPV with score 100
+2025-08-25 20:47:34,671 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +18323599000 verified via RPV with score 100
+2025-08-25 20:47:36,310 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +18326138368 verified via RPV with score 100
+2025-08-25 20:47:37,801 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +17133840754 verified via RPV with score 100
+2025-08-25 20:47:39,333 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +17149700563 verified via RPV with score 100
+2025-08-25 20:47:40,868 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +13378989038 failed RPV verification: disconnected
+2025-08-25 20:47:42,419 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +13188930835 failed RPV verification: invalid-phone
+2025-08-25 20:47:43,970 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +17143181037 verified via RPV with score 100
+2025-08-25 20:47:45,578 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +17149701945 failed RPV verification: disconnected
+2025-08-25 20:47:47,290 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 verified via RPV with score 100
+2025-08-25 20:47:48,830 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 verified via RPV with score 100
+2025-08-25 20:47:56,998 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email scuba@consolidated.net verified via Hunter.io with score 90
+2025-08-25 20:47:58,956 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email linda_the_boss@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:48:00,680 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email scuba@lcc.net failed Hunter.io verification: invalid
+2025-08-25 20:48:04,846 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email danagarrett@chartermi.net failed Hunter.io verification: invalid
+2025-08-25 20:48:08,314 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email mike_darlenegarrett@hotmail.com verified via Hunter.io with score 89
+2025-08-25 20:48:11,651 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email dollienegan@hotmail.com verified via Hunter.io with score 91
+2025-08-25 20:48:13,995 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email dana.egan@angelfire.com failed Hunter.io verification: invalid
+2025-08-25 20:48:15,873 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email dana.egan@cs.com failed Hunter.io verification: accept_all
+2025-08-25 20:48:17,659 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email she_rachett52@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:48:20,991 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email dmcowgirlvico@hotmail.com failed Hunter.io verification: invalid
+2025-08-25 20:48:23,276 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:48:25,042 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:48:25,160 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19365227648 (verified=True, match_strength=50)
+2025-08-25 20:48:25,221 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19367563417 (verified=True, match_strength=50)
+2025-08-25 20:48:25,290 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19365881812 (verified=False, match_strength=50)
+2025-08-25 20:48:25,349 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +14097563417 (verified=False, match_strength=50)
+2025-08-25 20:48:25,406 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +14097566889 (verified=False, match_strength=50)
+2025-08-25 20:48:25,467 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +18322825781 (verified=True, match_strength=50)
+2025-08-25 20:48:25,528 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +18322829388 (verified=True, match_strength=50)
+2025-08-25 20:48:25,588 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +18323599000 (verified=True, match_strength=50)
+2025-08-25 20:48:25,645 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +18326138368 (verified=True, match_strength=50)
+2025-08-25 20:48:25,705 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +17133840754 (verified=True, match_strength=50)
+2025-08-25 20:48:25,767 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +17149700563 (verified=True, match_strength=50)
+2025-08-25 20:48:25,827 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +13378989038 (verified=False, match_strength=50)
+2025-08-25 20:48:25,888 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +13188930835 (verified=False, match_strength=50)
+2025-08-25 20:48:25,948 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +17143181037 (verified=True, match_strength=50)
+2025-08-25 20:48:26,007 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +17149701945 (verified=False, match_strength=50)
+2025-08-25 20:48:26,065 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=True, match_strength=50)
+2025-08-25 20:48:26,124 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=True, match_strength=50)
+2025-08-25 20:48:26,238 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email scuba@consolidated.net (verified=True, match_strength=50)
+2025-08-25 20:48:26,297 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email linda_the_boss@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:48:26,353 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email scuba@lcc.net (verified=False, match_strength=50)
+2025-08-25 20:48:26,452 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email danagarrett@chartermi.net (verified=False, match_strength=50)
+2025-08-25 20:48:26,516 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email mike_darlenegarrett@hotmail.com (verified=True, match_strength=50)
+2025-08-25 20:48:26,582 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email dollienegan@hotmail.com (verified=True, match_strength=50)
+2025-08-25 20:48:26,645 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email dana.egan@angelfire.com (verified=False, match_strength=50)
+2025-08-25 20:48:26,716 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email dana.egan@cs.com (verified=False, match_strength=50)
+2025-08-25 20:48:26,796 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email she_rachett52@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:48:26,876 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email dmcowgirlvico@hotmail.com (verified=False, match_strength=50)
+2025-08-25 20:48:26,957 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:48:27,036 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:48:27,037 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best phone selected: +19365227648 (score: 100)
+2025-08-25 20:48:27,037 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: jtpuente6972@outlook.com (score: 92)
+2025-08-25 20:48:36,207 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Failed to update debtor 12 with best contacts: HTTP 400 for http://3.85.34.51:8055/items/debtors/12: {"errors":[{"message":"Invalid foreign key \"26\" for field \"best_phone_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_phone_id","value":26,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:48:36,209 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 12: 11 verified phones, 4 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:48:46,458 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Stage verify_contacts failed for debtor 12: HTTP 400 for http://3.85.34.51:8055/items/debtors/12: {"errors":[{"message":"Invalid foreign key \"26\" for field \"best_phone_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_phone_id","value":26,"code":"INVALID_FOREIGN_KEY"}}]}
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 62, in _request
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://3.85.34.51:8055/items/debtors/12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\pipeline.py", line 72, in main
+    dx.update_row("debtors", debtor_id, patch)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 98, in update_row
+    resp = self._request("PATCH", url, json=data)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 77, in _request
+    raise DirectusError(msg) from e
+src.directus_client.DirectusError: HTTP 400 for http://3.85.34.51:8055/items/debtors/12: {"errors":[{"message":"Invalid foreign key \"26\" for field \"best_phone_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_phone_id","value":26,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:48:54,560 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 12 stage=bankruptcy seconds=8.08
+2025-08-25 20:48:54,734 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 12 stage=property_value seconds=0.17
+2025-08-25 20:48:57,049 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 12 stage=business_lookup seconds=2.24
+2025-08-25 20:48:57,506 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 12 stage=scoring seconds=0.38
+2025-08-25 20:48:57,960 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 13 stage=usps seconds=0.12
+2025-08-25 20:48:58,449 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 13 stage=skiptrace_apify seconds=0.49
+2025-08-25 20:48:58,450 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 13: Linda Garrett
+2025-08-25 20:48:58,566 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 16 phones and 16 emails to verify
+2025-08-25 20:49:00,333 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +18506854746 verified via RPV with score 100
+2025-08-25 20:49:03,030 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +18506518666 failed RPV verification: disconnected
+2025-08-25 20:49:04,769 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +17602477138 verified via RPV with score 100
+2025-08-25 20:49:07,053 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19048625859 verified via RPV with score 100
+2025-08-25 20:49:08,777 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19365227648 verified via RPV with score 100
+2025-08-25 20:49:10,909 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19367563417 verified via RPV with score 100
+2025-08-25 20:49:13,099 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19365881812 failed RPV verification: disconnected
+2025-08-25 20:49:15,023 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +14097563417 failed RPV verification: invalid-phone
+2025-08-25 20:49:16,816 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +14097566889 failed RPV verification: invalid-phone
+2025-08-25 20:49:19,651 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19362714576 failed RPV verification: disconnected
+2025-08-25 20:49:21,812 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12092041157 verified via RPV with score 100
+2025-08-25 20:49:24,021 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +14093211467 verified via RPV with score 75
+2025-08-25 20:49:25,800 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +15415903762 failed RPV verification: disconnected-70
+2025-08-25 20:49:27,910 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12813211467 failed RPV verification: disconnected-70
+2025-08-25 20:49:29,642 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 verified via RPV with score 100
+2025-08-25 20:49:31,295 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 verified via RPV with score 100
+2025-08-25 20:49:34,432 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email linda-pooh42@msn.com verified via Hunter.io with score 91
+2025-08-25 20:49:36,329 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email bikingbell@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:49:39,282 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email hlinda-pooh420@msn.com failed Hunter.io verification: invalid
+2025-08-25 20:49:41,182 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email lbell250@netscape.net failed Hunter.io verification: accept_all
+2025-08-25 20:49:44,235 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email linda-pooh42g9@msn.com failed Hunter.io verification: invalid
+2025-08-25 20:49:46,279 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email scuba@consolidated.net verified via Hunter.io with score 90
+2025-08-25 20:49:48,271 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email linda_the_boss@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:49:50,067 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email scuba@lcc.net failed Hunter.io verification: invalid
+2025-08-25 20:49:51,883 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email danagarrett@chartermi.net failed Hunter.io verification: invalid
+2025-08-25 20:49:54,531 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email oneeyecorky@gmail.com verified via Hunter.io with score 92
+2025-08-25 20:50:03,850 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email ctlktaube1@cox-internet.com failed Hunter.io verification: invalid
+2025-08-25 20:50:07,189 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email ctlktaube1@charter.net failed Hunter.io verification: invalid
+2025-08-25 20:50:09,243 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email ctlktaube@aol.com failed Hunter.io verification: accept_all
+2025-08-25 20:50:11,174 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email ctlktaube1@aol.com failed Hunter.io verification: accept_all
+2025-08-25 20:50:13,306 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:50:15,213 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:50:15,331 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +18506854746 (verified=True, match_strength=50)
+2025-08-25 20:50:15,392 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +18506518666 (verified=False, match_strength=50)
+2025-08-25 20:50:15,450 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +17602477138 (verified=True, match_strength=50)
+2025-08-25 20:50:15,512 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19048625859 (verified=True, match_strength=50)
+2025-08-25 20:50:15,571 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19365227648 (verified=True, match_strength=50)
+2025-08-25 20:50:15,640 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19367563417 (verified=True, match_strength=50)
+2025-08-25 20:50:15,703 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19365881812 (verified=False, match_strength=50)
+2025-08-25 20:50:15,764 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +14097563417 (verified=False, match_strength=50)
+2025-08-25 20:50:15,831 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +14097566889 (verified=False, match_strength=50)
+2025-08-25 20:50:15,896 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19362714576 (verified=False, match_strength=50)
+2025-08-25 20:50:15,973 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12092041157 (verified=True, match_strength=50)
+2025-08-25 20:50:16,039 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +14093211467 (verified=True, match_strength=50)
+2025-08-25 20:50:16,101 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +15415903762 (verified=False, match_strength=50)
+2025-08-25 20:50:16,170 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12813211467 (verified=False, match_strength=50)
+2025-08-25 20:50:16,227 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=True, match_strength=50)
+2025-08-25 20:50:16,285 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=True, match_strength=50)
+2025-08-25 20:50:16,404 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email linda-pooh42@msn.com (verified=True, match_strength=50)
+2025-08-25 20:50:16,463 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email bikingbell@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:50:16,515 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email hlinda-pooh420@msn.com (verified=False, match_strength=50)
+2025-08-25 20:50:16,573 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email lbell250@netscape.net (verified=False, match_strength=50)
+2025-08-25 20:50:16,633 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email linda-pooh42g9@msn.com (verified=False, match_strength=50)
+2025-08-25 20:50:16,694 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email scuba@consolidated.net (verified=True, match_strength=50)
+2025-08-25 20:50:16,749 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email linda_the_boss@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:50:16,808 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email scuba@lcc.net (verified=False, match_strength=50)
+2025-08-25 20:50:16,872 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email danagarrett@chartermi.net (verified=False, match_strength=50)
+2025-08-25 20:50:16,933 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email oneeyecorky@gmail.com (verified=True, match_strength=50)
+2025-08-25 20:50:16,993 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email ctlktaube1@cox-internet.com (verified=False, match_strength=50)
+2025-08-25 20:50:17,058 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email ctlktaube1@charter.net (verified=False, match_strength=50)
+2025-08-25 20:50:17,121 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email ctlktaube@aol.com (verified=False, match_strength=50)
+2025-08-25 20:50:17,182 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email ctlktaube1@aol.com (verified=False, match_strength=50)
+2025-08-25 20:50:17,241 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:50:17,302 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:50:17,302 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best phone selected: +18506854746 (score: 100)
+2025-08-25 20:50:17,303 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: oneeyecorky@gmail.com (score: 92)
+2025-08-25 20:50:26,835 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Failed to update debtor 13 with best contacts: HTTP 400 for http://3.85.34.51:8055/items/debtors/13: {"errors":[{"message":"Invalid foreign key \"41\" for field \"best_phone_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_phone_id","value":41,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:50:26,836 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 13: 9 verified phones, 4 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:50:36,747 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Stage verify_contacts failed for debtor 13: HTTP 400 for http://3.85.34.51:8055/items/debtors/13: {"errors":[{"message":"Invalid foreign key \"41\" for field \"best_phone_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_phone_id","value":41,"code":"INVALID_FOREIGN_KEY"}}]}
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 62, in _request
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://3.85.34.51:8055/items/debtors/13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\pipeline.py", line 72, in main
+    dx.update_row("debtors", debtor_id, patch)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 98, in update_row
+    resp = self._request("PATCH", url, json=data)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 77, in _request
+    raise DirectusError(msg) from e
+src.directus_client.DirectusError: HTTP 400 for http://3.85.34.51:8055/items/debtors/13: {"errors":[{"message":"Invalid foreign key \"41\" for field \"best_phone_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_phone_id","value":41,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:50:44,770 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 13 stage=bankruptcy seconds=8.01
+2025-08-25 20:50:44,949 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 13 stage=property_value seconds=0.18
+2025-08-25 20:50:47,060 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 13 stage=business_lookup seconds=2.05
+2025-08-25 20:50:47,431 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 13 stage=scoring seconds=0.31
+2025-08-25 20:50:47,867 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 14 stage=usps seconds=0.12
+2025-08-25 20:50:48,352 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 14 stage=skiptrace_apify seconds=0.48
+2025-08-25 20:50:48,352 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 14: John Smith
+2025-08-25 20:50:48,468 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 17 phones and 17 emails to verify
+2025-08-25 20:50:50,127 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +15129267234 failed RPV verification: disconnected
+2025-08-25 20:50:51,734 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +15123827193 verified via RPV with score 75
+2025-08-25 20:50:53,813 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +15128263936 verified via RPV with score 100
+2025-08-25 20:50:56,046 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +15128283014 verified via RPV with score 75
+2025-08-25 20:50:57,779 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +15127613650 verified via RPV with score 75
+2025-08-25 20:50:59,344 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19362809899 verified via RPV with score 75
+2025-08-25 20:51:01,466 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19364889449 failed RPV verification: unreachable
+2025-08-25 20:51:03,566 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19365910111 failed RPV verification: disconnected
+2025-08-25 20:51:05,174 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19365720022 verified via RPV with score 75
+2025-08-25 20:51:06,818 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19365989976 failed RPV verification: disconnected
+2025-08-25 20:51:08,403 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +15127840583 verified via RPV with score 100
+2025-08-25 20:51:10,084 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +18174786121 failed RPV verification: disconnected
+2025-08-25 20:51:12,140 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19723810409 verified via RPV with score 100
+2025-08-25 20:51:14,375 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19729317808 failed RPV verification: disconnected
+2025-08-25 20:51:15,454 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19729717665 failed RPV verification: unauthorized
+2025-08-25 20:51:16,472 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 20:51:17,448 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 failed RPV verification: unauthorized
+2025-08-25 20:51:19,159 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jlsmithjr50@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:51:20,665 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email alexissmithiv@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:51:22,244 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email johnls3193@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:51:23,736 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email johnls3193@aol.com failed Hunter.io verification: accept_all
+2025-08-25 20:51:26,686 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email johnls3193@hotmail.com verified via Hunter.io with score 89
+2025-08-25 20:51:30,687 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email drjack@comcast.com failed Hunter.io verification: invalid
+2025-08-25 20:51:33,577 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email drjack@satx.rr.com failed Hunter.io verification: invalid
+2025-08-25 20:51:35,121 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email drjack@fhtm.us failed Hunter.io verification: accept_all
+2025-08-25 20:51:36,397 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email drjack11833@email.com failed Hunter.io verification: disposable
+2025-08-25 20:51:37,874 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email drjs@fhtm.us failed Hunter.io verification: accept_all
+2025-08-25 20:51:39,455 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jiaqinli@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:51:41,212 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email filmmaker456@aol.com failed Hunter.io verification: accept_all
+2025-08-25 20:51:42,876 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email coulson13@aol.com failed Hunter.io verification: accept_all
+2025-08-25 20:51:44,460 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email kanedo@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:51:47,486 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email johnli2000@hotmail.com failed Hunter.io verification: invalid
+2025-08-25 20:51:49,010 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:51:50,367 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:51:50,479 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +15129267234 (verified=False, match_strength=50)
+2025-08-25 20:51:50,541 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +15123827193 (verified=True, match_strength=50)
+2025-08-25 20:51:50,602 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +15128263936 (verified=True, match_strength=50)
+2025-08-25 20:51:50,662 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +15128283014 (verified=True, match_strength=50)
+2025-08-25 20:51:50,723 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +15127613650 (verified=True, match_strength=50)
+2025-08-25 20:51:50,783 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19362809899 (verified=True, match_strength=50)
+2025-08-25 20:51:50,842 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19364889449 (verified=False, match_strength=50)
+2025-08-25 20:51:50,904 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19365910111 (verified=False, match_strength=50)
+2025-08-25 20:51:50,966 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19365720022 (verified=True, match_strength=50)
+2025-08-25 20:51:51,025 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19365989976 (verified=False, match_strength=50)
+2025-08-25 20:51:51,095 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +15127840583 (verified=True, match_strength=50)
+2025-08-25 20:51:51,158 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +18174786121 (verified=False, match_strength=50)
+2025-08-25 20:51:51,218 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19723810409 (verified=True, match_strength=50)
+2025-08-25 20:51:51,279 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19729317808 (verified=False, match_strength=50)
+2025-08-25 20:51:51,341 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19729717665 (verified=False, match_strength=50)
+2025-08-25 20:51:51,409 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=False, match_strength=50)
+2025-08-25 20:51:51,501 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=False, match_strength=50)
+2025-08-25 20:51:51,616 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jlsmithjr50@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:51:51,677 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email alexissmithiv@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:51:51,737 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email johnls3193@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:51:51,804 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email johnls3193@aol.com (verified=False, match_strength=50)
+2025-08-25 20:51:51,865 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email johnls3193@hotmail.com (verified=True, match_strength=50)
+2025-08-25 20:51:51,926 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email drjack@comcast.com (verified=False, match_strength=50)
+2025-08-25 20:51:51,986 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email drjack@satx.rr.com (verified=False, match_strength=50)
+2025-08-25 20:51:52,054 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email drjack@fhtm.us (verified=False, match_strength=50)
+2025-08-25 20:51:52,123 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email drjack11833@email.com (verified=False, match_strength=50)
+2025-08-25 20:51:52,189 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email drjs@fhtm.us (verified=False, match_strength=50)
+2025-08-25 20:51:52,252 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jiaqinli@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:51:52,313 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email filmmaker456@aol.com (verified=False, match_strength=50)
+2025-08-25 20:51:52,376 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email coulson13@aol.com (verified=False, match_strength=50)
+2025-08-25 20:51:52,437 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email kanedo@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:51:52,494 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email johnli2000@hotmail.com (verified=False, match_strength=50)
+2025-08-25 20:51:52,549 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:51:52,608 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:51:52,609 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best phone selected: +15127840583 (score: 100)
+2025-08-25 20:51:52,609 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: jtpuente6972@outlook.com (score: 92)
+2025-08-25 20:52:03,096 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Failed to update debtor 14 with best contacts: HTTP 400 for http://3.85.34.51:8055/items/debtors/14: {"errors":[{"message":"Invalid foreign key \"65\" for field \"best_phone_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_phone_id","value":65,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:52:03,097 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 14: 8 verified phones, 2 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:52:13,732 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Stage verify_contacts failed for debtor 14: HTTP 400 for http://3.85.34.51:8055/items/debtors/14: {"errors":[{"message":"Invalid foreign key \"65\" for field \"best_phone_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_phone_id","value":65,"code":"INVALID_FOREIGN_KEY"}}]}
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 62, in _request
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://3.85.34.51:8055/items/debtors/14
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\pipeline.py", line 72, in main
+    dx.update_row("debtors", debtor_id, patch)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 98, in update_row
+    resp = self._request("PATCH", url, json=data)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 77, in _request
+    raise DirectusError(msg) from e
+src.directus_client.DirectusError: HTTP 400 for http://3.85.34.51:8055/items/debtors/14: {"errors":[{"message":"Invalid foreign key \"65\" for field \"best_phone_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_phone_id","value":65,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:52:21,416 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 14 stage=bankruptcy seconds=7.67
+2025-08-25 20:52:21,593 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 14 stage=property_value seconds=0.18
+2025-08-25 20:52:23,621 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 14 stage=business_lookup seconds=1.97
+2025-08-25 20:52:23,989 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 14 stage=scoring seconds=0.30
+2025-08-25 20:52:24,478 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 15 stage=usps seconds=0.12
+2025-08-25 20:52:24,978 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 15 stage=skiptrace_apify seconds=0.50
+2025-08-25 20:52:24,979 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 15: Jane Doe
+2025-08-25 20:52:25,098 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 20:52:26,133 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 20:52:27,147 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 failed RPV verification: unauthorized
+2025-08-25 20:52:28,642 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:52:30,016 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:52:30,138 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=False, match_strength=50)
+2025-08-25 20:52:30,201 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=False, match_strength=50)
+2025-08-25 20:52:30,313 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:52:30,372 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:52:30,373 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: jtpuente6972@outlook.com (score: 92)
+2025-08-25 20:52:39,570 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Failed to update debtor 15 with best contacts: HTTP 400 for http://3.85.34.51:8055/items/debtors/15: {"errors":[{"message":"Invalid foreign key \"110\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":110,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:52:39,571 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 15: 0 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:52:50,070 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Stage verify_contacts failed for debtor 15: HTTP 400 for http://3.85.34.51:8055/items/debtors/15: {"errors":[{"message":"Invalid foreign key \"110\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":110,"code":"INVALID_FOREIGN_KEY"}}]}
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 62, in _request
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://3.85.34.51:8055/items/debtors/15
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\pipeline.py", line 72, in main
+    dx.update_row("debtors", debtor_id, patch)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 98, in update_row
+    resp = self._request("PATCH", url, json=data)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 77, in _request
+    raise DirectusError(msg) from e
+src.directus_client.DirectusError: HTTP 400 for http://3.85.34.51:8055/items/debtors/15: {"errors":[{"message":"Invalid foreign key \"110\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":110,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:52:57,641 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 15 stage=bankruptcy seconds=7.56
+2025-08-25 20:52:57,814 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 15 stage=property_value seconds=0.17
+2025-08-25 20:52:59,794 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 15 stage=business_lookup seconds=1.91
+2025-08-25 20:53:00,157 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 15 stage=scoring seconds=0.30
+2025-08-25 20:53:00,604 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 16 stage=usps seconds=0.12
+2025-08-25 20:53:01,085 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 16 stage=skiptrace_apify seconds=0.48
+2025-08-25 20:53:01,086 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 16: Michael Johnson
+2025-08-25 20:53:01,208 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 20:53:02,279 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 20:53:03,252 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 failed RPV verification: unauthorized
+2025-08-25 20:53:04,677 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:53:06,052 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:53:06,159 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=False, match_strength=50)
+2025-08-25 20:53:06,221 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=False, match_strength=50)
+2025-08-25 20:53:06,333 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:53:06,391 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:53:06,392 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: jtpuente6972@outlook.com (score: 92)
+2025-08-25 20:53:15,644 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Failed to update debtor 16 with best contacts: HTTP 400 for http://3.85.34.51:8055/items/debtors/16: {"errors":[{"message":"Invalid foreign key \"112\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":112,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:53:15,644 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 16: 0 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:53:25,064 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Stage verify_contacts failed for debtor 16: HTTP 400 for http://3.85.34.51:8055/items/debtors/16: {"errors":[{"message":"Invalid foreign key \"112\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":112,"code":"INVALID_FOREIGN_KEY"}}]}
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 62, in _request
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://3.85.34.51:8055/items/debtors/16
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\pipeline.py", line 72, in main
+    dx.update_row("debtors", debtor_id, patch)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 98, in update_row
+    resp = self._request("PATCH", url, json=data)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 77, in _request
+    raise DirectusError(msg) from e
+src.directus_client.DirectusError: HTTP 400 for http://3.85.34.51:8055/items/debtors/16: {"errors":[{"message":"Invalid foreign key \"112\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":112,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:53:32,831 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 16 stage=bankruptcy seconds=7.76
+2025-08-25 20:53:32,999 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 16 stage=property_value seconds=0.17
+2025-08-25 20:53:34,838 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 16 stage=business_lookup seconds=1.78
+2025-08-25 20:53:35,211 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 16 stage=scoring seconds=0.30
+2025-08-25 20:53:35,668 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 17 stage=usps seconds=0.13
+2025-08-25 20:53:36,164 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 17 stage=skiptrace_apify seconds=0.50
+2025-08-25 20:53:36,165 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 17: Kevin Garrett
+2025-08-25 20:53:36,286 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 7 phones and 6 emails to verify
+2025-08-25 20:53:37,338 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19362036787 failed RPV verification: unauthorized
+2025-08-25 20:53:38,308 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19367563417 failed RPV verification: unauthorized
+2025-08-25 20:53:39,306 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +14097565718 failed RPV verification: unauthorized
+2025-08-25 20:53:40,208 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19365881812 failed RPV verification: unauthorized
+2025-08-25 20:53:41,349 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +13107551584 failed RPV verification: unauthorized
+2025-08-25 20:53:42,360 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 20:53:43,333 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 failed RPV verification: unauthorized
+2025-08-25 20:53:44,820 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email kg77harding@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:53:46,247 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email bestgscodesaround@hotmail.com failed Hunter.io verification: invalid
+2025-08-25 20:53:47,772 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:53:49,300 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:53:49,410 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19362036787 (verified=False, match_strength=100)
+2025-08-25 20:53:49,467 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19367563417 (verified=False, match_strength=100)
+2025-08-25 20:53:49,525 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +14097565718 (verified=False, match_strength=100)
+2025-08-25 20:53:49,582 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19365881812 (verified=False, match_strength=100)
+2025-08-25 20:53:49,639 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +13107551584 (verified=False, match_strength=100)
+2025-08-25 20:53:49,698 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=False, match_strength=50)
+2025-08-25 20:53:49,766 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=False, match_strength=50)
+2025-08-25 20:53:49,897 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email kg77harding@yahoo.com (verified=False, match_strength=100)
+2025-08-25 20:53:49,955 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email bestgscodesaround@hotmail.com (verified=False, match_strength=100)
+2025-08-25 20:53:50,013 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:53:50,072 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:53:50,073 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: qsenotepad@hotmail.com (score: 92)
+2025-08-25 20:53:50,143 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Updated debtor 17 with best contacts: {'best_email_id': 62}
+2025-08-25 20:53:50,144 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 17: 0 verified phones, 3 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:53:50,208 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 17 stage=verify_contacts seconds=13.98
+2025-08-25 20:53:57,584 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 17 stage=bankruptcy seconds=7.38
+2025-08-25 20:53:57,758 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 17 stage=property_value seconds=0.17
+2025-08-25 20:53:59,618 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 17 stage=business_lookup seconds=1.79
+2025-08-25 20:53:59,970 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 17 stage=scoring seconds=0.29
+2025-08-25 20:54:00,424 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 18 stage=usps seconds=0.12
+2025-08-25 20:54:00,909 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 18 stage=skiptrace_apify seconds=0.48
+2025-08-25 20:54:00,910 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 18: Dana Garrett
+2025-08-25 20:54:01,021 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 5 phones and 5 emails to verify
+2025-08-25 20:54:02,034 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19362036788 failed RPV verification: unauthorized
+2025-08-25 20:54:03,006 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19367563418 failed RPV verification: unauthorized
+2025-08-25 20:54:03,932 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +14097565719 failed RPV verification: unauthorized
+2025-08-25 20:54:04,921 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 20:54:05,856 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 failed RPV verification: unauthorized
+2025-08-25 20:54:07,274 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email dana.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:54:08,906 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email dgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 20:54:10,442 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:54:12,167 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:54:12,276 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19362036788 (verified=False, match_strength=100)
+2025-08-25 20:54:12,333 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19367563418 (verified=False, match_strength=100)
+2025-08-25 20:54:12,394 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +14097565719 (verified=False, match_strength=100)
+2025-08-25 20:54:12,455 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=False, match_strength=50)
+2025-08-25 20:54:12,515 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=False, match_strength=50)
+2025-08-25 20:54:12,627 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email dana.garrett@yahoo.com (verified=False, match_strength=100)
+2025-08-25 20:54:12,685 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email dgarrett77301@gmail.com (verified=False, match_strength=100)
+2025-08-25 20:54:12,743 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:54:12,804 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:54:12,804 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: jtpuente6972@outlook.com (score: 92)
+2025-08-25 20:54:23,286 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Failed to update debtor 18 with best contacts: HTTP 400 for http://3.85.34.51:8055/items/debtors/18: {"errors":[{"message":"Invalid foreign key \"116\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":116,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:54:23,287 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 18: 0 verified phones, 2 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:54:32,594 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Stage verify_contacts failed for debtor 18: HTTP 400 for http://3.85.34.51:8055/items/debtors/18: {"errors":[{"message":"Invalid foreign key \"116\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":116,"code":"INVALID_FOREIGN_KEY"}}]}
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 62, in _request
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://3.85.34.51:8055/items/debtors/18
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\pipeline.py", line 72, in main
+    dx.update_row("debtors", debtor_id, patch)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 98, in update_row
+    resp = self._request("PATCH", url, json=data)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 77, in _request
+    raise DirectusError(msg) from e
+src.directus_client.DirectusError: HTTP 400 for http://3.85.34.51:8055/items/debtors/18: {"errors":[{"message":"Invalid foreign key \"116\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":116,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:54:39,895 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 18 stage=bankruptcy seconds=7.29
+2025-08-25 20:54:40,080 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 18 stage=property_value seconds=0.18
+2025-08-25 20:54:42,109 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 18 stage=business_lookup seconds=1.97
+2025-08-25 20:54:42,480 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 18 stage=scoring seconds=0.30
+2025-08-25 20:54:42,947 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 19 stage=usps seconds=0.12
+2025-08-25 20:54:43,613 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 19 stage=skiptrace_apify seconds=0.67
+2025-08-25 20:54:43,614 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 19: Linda Garrett
+2025-08-25 20:54:43,731 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 5 phones and 5 emails to verify
+2025-08-25 20:54:44,789 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19362036789 failed RPV verification: unauthorized
+2025-08-25 20:54:45,695 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +19367563419 failed RPV verification: unauthorized
+2025-08-25 20:54:46,713 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +14097565720 failed RPV verification: unauthorized
+2025-08-25 20:54:47,682 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 20:54:48,733 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 failed RPV verification: unauthorized
+2025-08-25 20:54:50,384 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email linda.garrett@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:54:51,959 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email lgarrett77301@gmail.com failed Hunter.io verification: invalid
+2025-08-25 20:54:53,465 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:54:55,027 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:54:55,137 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19362036789 (verified=False, match_strength=100)
+2025-08-25 20:54:55,195 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +19367563419 (verified=False, match_strength=100)
+2025-08-25 20:54:55,258 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +14097565720 (verified=False, match_strength=100)
+2025-08-25 20:54:55,316 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=False, match_strength=50)
+2025-08-25 20:54:55,376 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=False, match_strength=50)
+2025-08-25 20:54:55,492 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email linda.garrett@yahoo.com (verified=False, match_strength=100)
+2025-08-25 20:54:55,550 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email lgarrett77301@gmail.com (verified=False, match_strength=100)
+2025-08-25 20:54:55,609 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:54:55,667 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:54:55,667 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: lindag@hotmail.com (score: 92)
+2025-08-25 20:54:55,732 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Updated debtor 19 with best contacts: {'best_email_id': 71}
+2025-08-25 20:54:55,732 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 19: 0 verified phones, 2 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:54:55,796 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 19 stage=verify_contacts seconds=12.12
+2025-08-25 20:55:03,625 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 19 stage=bankruptcy seconds=7.83
+2025-08-25 20:55:03,808 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 19 stage=property_value seconds=0.18
+2025-08-25 20:55:05,718 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 19 stage=business_lookup seconds=1.85
+2025-08-25 20:55:06,082 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 19 stage=scoring seconds=0.30
+2025-08-25 20:55:06,542 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 20 stage=usps seconds=0.12
+2025-08-25 20:55:07,041 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 20 stage=skiptrace_apify seconds=0.50
+2025-08-25 20:55:07,042 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 20: Kevin Garrett
+2025-08-25 20:55:07,155 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 5 phones and 4 emails to verify
+2025-08-25 20:55:08,158 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 20:55:09,237 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 failed RPV verification: unauthorized
+2025-08-25 20:55:10,876 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:55:12,706 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:55:12,819 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=False, match_strength=50)
+2025-08-25 20:55:12,874 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=False, match_strength=50)
+2025-08-25 20:55:12,997 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:55:13,058 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:55:13,059 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best phone selected: +19362036787 (score: 100)
+2025-08-25 20:55:13,059 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: qsenotepad@hotmail.com (score: 92)
+2025-08-25 20:55:13,142 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Updated debtor 20 with best contacts: {'best_phone_id': 81, 'best_email_id': 72}
+2025-08-25 20:55:13,143 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 20: 3 verified phones, 3 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:55:13,222 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 20 stage=verify_contacts seconds=6.10
+2025-08-25 20:55:20,578 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 20 stage=bankruptcy seconds=7.36
+2025-08-25 20:55:20,755 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 20 stage=property_value seconds=0.18
+2025-08-25 20:55:22,536 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 20 stage=business_lookup seconds=1.72
+2025-08-25 20:55:22,901 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 20 stage=scoring seconds=0.30
+2025-08-25 20:55:23,458 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 21 stage=usps seconds=0.12
+2025-08-25 20:55:23,961 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 21 stage=skiptrace_apify seconds=0.50
+2025-08-25 20:55:23,961 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 21: Dana Garrett
+2025-08-25 20:55:24,073 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 3 phones and 3 emails to verify
+2025-08-25 20:55:25,046 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 20:55:26,019 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 failed RPV verification: unauthorized
+2025-08-25 20:55:27,651 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:55:29,247 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:55:29,363 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=False, match_strength=50)
+2025-08-25 20:55:29,420 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=False, match_strength=50)
+2025-08-25 20:55:29,533 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:55:29,600 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:55:29,600 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best phone selected: +19362036788 (score: 100)
+2025-08-25 20:55:29,601 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: jtpuente6972@outlook.com (score: 92)
+2025-08-25 20:55:40,328 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Failed to update debtor 21 with best contacts: HTTP 400 for http://3.85.34.51:8055/items/debtors/21: {"errors":[{"message":"Invalid foreign key \"122\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":122,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:55:40,330 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 21: 1 verified phones, 2 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:55:50,913 ERROR 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Stage verify_contacts failed for debtor 21: HTTP 400 for http://3.85.34.51:8055/items/debtors/21: {"errors":[{"message":"Invalid foreign key \"122\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":122,"code":"INVALID_FOREIGN_KEY"}}]}
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 62, in _request
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://3.85.34.51:8055/items/debtors/21
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DebtCollect\debt-collectibility\pipeline.py", line 72, in main
+    dx.update_row("debtors", debtor_id, patch)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 98, in update_row
+    resp = self._request("PATCH", url, json=data)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kines\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\DebtCollect\debt-collectibility\.venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\DebtCollect\debt-collectibility\src\directus_client.py", line 77, in _request
+    raise DirectusError(msg) from e
+src.directus_client.DirectusError: HTTP 400 for http://3.85.34.51:8055/items/debtors/21: {"errors":[{"message":"Invalid foreign key \"122\" for field \"best_email_id\" in collection \"debtors\".","extensions":{"collection":"debtors","field":"best_email_id","value":122,"code":"INVALID_FOREIGN_KEY"}}]}
+2025-08-25 20:55:58,602 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 21 stage=bankruptcy seconds=7.68
+2025-08-25 20:55:58,775 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 21 stage=property_value seconds=0.17
+2025-08-25 20:56:00,712 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 21 stage=business_lookup seconds=1.88
+2025-08-25 20:56:01,078 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 21 stage=scoring seconds=0.30
+2025-08-25 20:56:01,521 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 22 stage=usps seconds=0.12
+2025-08-25 20:56:02,021 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 22 stage=skiptrace_apify seconds=0.50
+2025-08-25 20:56:02,021 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verifying contacts for debtor 22: Linda Garrett
+2025-08-25 20:56:02,134 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Found 4 phones and 3 emails to verify
+2025-08-25 20:56:03,419 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 20:56:04,409 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Phone +12146093136 failed RPV verification: unauthorized
+2025-08-25 20:56:06,007 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jtpuente6972@outlook.com verified via Hunter.io with score 92
+2025-08-25 20:56:07,761 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Email jrpuente69@yahoo.com failed Hunter.io verification: accept_all
+2025-08-25 20:56:07,875 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093137 (verified=False, match_strength=50)
+2025-08-25 20:56:07,936 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed phone +12146093136 (verified=False, match_strength=50)
+2025-08-25 20:56:08,047 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=True, match_strength=50)
+2025-08-25 20:56:08,111 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=False, match_strength=50)
+2025-08-25 20:56:08,112 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best phone selected: +19362036789 (score: 100)
+2025-08-25 20:56:08,112 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Best email selected: lindag@hotmail.com (score: 92)
+2025-08-25 20:56:08,188 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Updated debtor 22 with best contacts: {'best_phone_id': 89, 'best_email_id': 81}
+2025-08-25 20:56:08,188 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Verification complete for debtor 22: 2 verified phones, 2 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 20:56:08,248 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 22 stage=verify_contacts seconds=6.17
+2025-08-25 20:56:15,619 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 22 stage=bankruptcy seconds=7.37
+2025-08-25 20:56:15,799 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 22 stage=property_value seconds=0.18
+2025-08-25 20:56:17,626 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 22 stage=business_lookup seconds=1.76
+2025-08-25 20:56:17,989 INFO 79d40ac8-18b3-46c8-b435-b5d1df927f14 debt_enrichment - Debtor 22 stage=scoring seconds=0.30
+2025-08-25 21:02:23,322 INFO e7724aa3-b585-4ca2-abad-eb4d341a2ad6 debt_enrichment - Verifying contacts for debtor 1: Kevin Garrett
+2025-08-25 21:02:23,322 INFO e7724aa3-b585-4ca2-abad-eb4d341a2ad6 debt_enrichment - Found 1 phones and 1 emails to verify
+2025-08-25 21:02:23,322 INFO e7724aa3-b585-4ca2-abad-eb4d341a2ad6 debt_enrichment - Phone +12146093136 verified via RPV with score 100
+2025-08-25 21:02:23,323 INFO e7724aa3-b585-4ca2-abad-eb4d341a2ad6 debt_enrichment - Email test@example.com verified via Hunter.io with score 90
+2025-08-25 21:02:23,323 INFO e7724aa3-b585-4ca2-abad-eb4d341a2ad6 debt_enrichment - Best phone selected: +12146093136 (score: 100)
+2025-08-25 21:02:23,324 INFO e7724aa3-b585-4ca2-abad-eb4d341a2ad6 debt_enrichment - Best email selected: test@example.com (score: 90)
+2025-08-25 21:02:23,324 INFO e7724aa3-b585-4ca2-abad-eb4d341a2ad6 debt_enrichment - Updated debtor 1 with best contacts: {'best_phone_id': 1, 'best_email_id': 2}
+2025-08-25 21:02:23,324 INFO e7724aa3-b585-4ca2-abad-eb4d341a2ad6 debt_enrichment - Verification complete for debtor 1: 1 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 21:03:14,463 INFO de839374-5dfc-4437-ab60-3a7fe154a012 debt_enrichment - Verifying contacts for debtor 1: Kevin Garrett
+2025-08-25 21:03:14,464 INFO de839374-5dfc-4437-ab60-3a7fe154a012 debt_enrichment - Found 1 phones and 1 emails to verify
+2025-08-25 21:03:14,464 INFO de839374-5dfc-4437-ab60-3a7fe154a012 debt_enrichment - Phone +12146093136 verified via RPV with score 100
+2025-08-25 21:03:14,465 INFO de839374-5dfc-4437-ab60-3a7fe154a012 debt_enrichment - Email test@example.com verified via Hunter.io with score 90
+2025-08-25 21:03:14,465 INFO de839374-5dfc-4437-ab60-3a7fe154a012 debt_enrichment - Best phone selected: +12146093136 (score: 100)
+2025-08-25 21:03:14,466 INFO de839374-5dfc-4437-ab60-3a7fe154a012 debt_enrichment - Best email selected: test@example.com (score: 90)
+2025-08-25 21:03:14,466 INFO de839374-5dfc-4437-ab60-3a7fe154a012 debt_enrichment - Updated debtor 1 with best contacts: {'best_phone_id': 1, 'best_email_id': 2}
+2025-08-25 21:03:14,467 INFO de839374-5dfc-4437-ab60-3a7fe154a012 debt_enrichment - Verification complete for debtor 1: 1 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 21:48:50,770 WARNING 5d1d2e7f-683e-415d-8444-8bf1b9e105f6 debt_enrichment - Apify skip-trace failed debtor 4: HTTP 403 for http://127.0.0.1:8055/items/phones: {"errors":[{"message":"You don't have permission to access field \"phone_e164\" in collection \"phones\" or it does not exist. Queried in root.","extensions":{"reason":"You don't have permission to access field \"phone_e164\" in collection \"phones\" or it does not exist. Queried in root.","code":"FORBIDDEN"}}]}
+2025-08-25 21:48:50,771 INFO 5d1d2e7f-683e-415d-8444-8bf1b9e105f6 debt_enrichment - Verifying contacts for debtor 4: Kevin Garrett
+2025-08-25 21:48:50,793 INFO 5d1d2e7f-683e-415d-8444-8bf1b9e105f6 debt_enrichment - Found 0 phones and 0 emails to verify
+2025-08-25 21:48:50,818 INFO 5d1d2e7f-683e-415d-8444-8bf1b9e105f6 debt_enrichment - Verification complete for debtor 4: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 21:50:52,975 WARNING 4ad84a21-8c48-4cb1-909c-7e2872187980 debt_enrichment - Apify skip-trace failed debtor 5: HTTP 403 for http://127.0.0.1:8055/items/phones: {"errors":[{"message":"You don't have permission to access field \"phone_e164\" in collection \"phones\" or it does not exist. Queried in root.","extensions":{"reason":"You don't have permission to access field \"phone_e164\" in collection \"phones\" or it does not exist. Queried in root.","code":"FORBIDDEN"}}]}
+2025-08-25 21:50:52,976 INFO 4ad84a21-8c48-4cb1-909c-7e2872187980 debt_enrichment - Verifying contacts for debtor 5: Kevin Garrett
+2025-08-25 21:50:52,998 INFO 4ad84a21-8c48-4cb1-909c-7e2872187980 debt_enrichment - Found 0 phones and 0 emails to verify
+2025-08-25 21:50:53,022 INFO 4ad84a21-8c48-4cb1-909c-7e2872187980 debt_enrichment - Verification complete for debtor 5: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 21:54:05,378 WARNING 2506660d-5d3e-42a6-ae70-bcc7f716c127 debt_enrichment - Apify skip-trace failed debtor 7: HTTP 403 for http://127.0.0.1:8055/items/phones: {"errors":[{"message":"You don't have permission to access field \"phone_e164\" in collection \"phones\" or it does not exist. Queried in root.","extensions":{"reason":"You don't have permission to access field \"phone_e164\" in collection \"phones\" or it does not exist. Queried in root.","code":"FORBIDDEN"}}]}
+2025-08-25 21:54:53,849 WARNING 7d71097b-67f5-4bfa-bda2-95ac6b9da5c0 debt_enrichment - Apify skip-trace failed debtor 7: HTTP 403 for http://127.0.0.1:8055/items/emails: {"errors":[{"message":"You don't have permission to access field \"email\" in collection \"emails\" or it does not exist. Queried in root.","extensions":{"reason":"You don't have permission to access field \"email\" in collection \"emails\" or it does not exist. Queried in root.","code":"FORBIDDEN"}}]}
+2025-08-25 21:55:27,124 INFO 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Verifying contacts for debtor 7: Test2 User2
+2025-08-25 21:55:27,152 INFO 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 21:55:27,153 WARNING 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - RPV unavailable/failed for phone +12146093137: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 21:55:27,154 ERROR 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Both RPV and Twilio failed for phone +12146093137: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 21:55:27,195 WARNING 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - RPV unavailable/failed for phone +12146093136: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 21:55:27,196 ERROR 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Both RPV and Twilio failed for phone +12146093136: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 21:55:27,229 WARNING 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Hunter.io verification failed for email jtpuente6972@outlook.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 21:55:27,262 INFO 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Email jtpuente6972@outlook.com marked as unverified due to verification failure
+2025-08-25 21:55:27,262 WARNING 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Hunter.io verification failed for email jrpuente69@yahoo.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 21:55:27,293 INFO 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Email jrpuente69@yahoo.com marked as unverified due to verification failure
+2025-08-25 21:55:27,328 INFO 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 21:55:27,354 INFO 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Removed phone +12146093136 (verified=0, match_strength=50)
+2025-08-25 21:55:27,373 ERROR 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Failed during cleanup policy enforcement: '<' not supported between instances of 'str' and 'int'
+2025-08-25 21:55:27,373 INFO 7a0a65da-1f45-4d71-a2c4-7689ab5eba38 debt_enrichment - Verification complete for debtor 7: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 21:58:17,556 INFO a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Verifying contacts for debtor 8: Kevin Garrett
+2025-08-25 21:58:17,581 INFO a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 21:58:17,582 WARNING a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - RPV unavailable/failed for phone +12146093137: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 21:58:17,582 ERROR a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Both RPV and Twilio failed for phone +12146093137: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 21:58:17,614 WARNING a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - RPV unavailable/failed for phone +12146093136: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 21:58:17,615 ERROR a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Both RPV and Twilio failed for phone +12146093136: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 21:58:17,646 WARNING a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Hunter.io verification failed for email jtpuente6972@outlook.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 21:58:17,677 INFO a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Email jtpuente6972@outlook.com marked as unverified due to verification failure
+2025-08-25 21:58:17,678 WARNING a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Hunter.io verification failed for email jrpuente69@yahoo.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 21:58:17,711 INFO a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Email jrpuente69@yahoo.com marked as unverified due to verification failure
+2025-08-25 21:58:17,748 INFO a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 21:58:17,773 INFO a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Removed phone +12146093136 (verified=0, match_strength=50)
+2025-08-25 21:58:17,786 ERROR a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Failed during cleanup policy enforcement: '<' not supported between instances of 'str' and 'int'
+2025-08-25 21:58:17,786 INFO a8ce3a59-de8d-4773-8b25-ec3a89e680eb debt_enrichment - Verification complete for debtor 8: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:00:11,381 INFO 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Verifying contacts for debtor 9: Kevin Garrett
+2025-08-25 22:00:11,408 INFO 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 22:00:11,409 WARNING 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - RPV unavailable/failed for phone +12146093137: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:00:11,409 ERROR 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Both RPV and Twilio failed for phone +12146093137: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:00:11,439 WARNING 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - RPV unavailable/failed for phone +12146093136: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:00:11,440 ERROR 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Both RPV and Twilio failed for phone +12146093136: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:00:11,467 WARNING 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Hunter.io verification failed for email jtpuente6972@outlook.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:00:11,494 INFO 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Email jtpuente6972@outlook.com marked as unverified due to verification failure
+2025-08-25 22:00:11,495 WARNING 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Hunter.io verification failed for email jrpuente69@yahoo.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:00:11,524 INFO 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Email jrpuente69@yahoo.com marked as unverified due to verification failure
+2025-08-25 22:00:11,561 INFO 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 22:00:11,583 INFO 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Removed phone +12146093136 (verified=0, match_strength=50)
+2025-08-25 22:00:11,594 ERROR 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Failed during cleanup policy enforcement: '<' not supported between instances of 'str' and 'int'
+2025-08-25 22:00:11,595 INFO 6be3a865-e189-4210-929b-abeafa0e1670 debt_enrichment - Verification complete for debtor 9: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:05:09,811 INFO 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Verifying contacts for debtor 10: E2E Test
+2025-08-25 22:05:09,837 INFO 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 22:05:09,839 WARNING 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - RPV unavailable/failed for phone +12146093137: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:05:09,840 ERROR 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Both RPV and Twilio failed for phone +12146093137: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:05:09,873 WARNING 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - RPV unavailable/failed for phone +12146093136: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:05:09,874 ERROR 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Both RPV and Twilio failed for phone +12146093136: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:05:09,904 WARNING 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Hunter.io verification failed for email jtpuente6972@outlook.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:05:09,939 INFO 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Email jtpuente6972@outlook.com marked as unverified due to verification failure
+2025-08-25 22:05:09,940 WARNING 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Hunter.io verification failed for email jrpuente69@yahoo.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:05:09,973 INFO 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Email jrpuente69@yahoo.com marked as unverified due to verification failure
+2025-08-25 22:05:10,010 INFO 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 22:05:10,038 INFO 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Removed phone +12146093136 (verified=0, match_strength=50)
+2025-08-25 22:05:10,049 ERROR 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Failed during cleanup policy enforcement: '<' not supported between instances of 'str' and 'int'
+2025-08-25 22:05:10,049 INFO 5adff978-682e-4260-a13b-5317a7775a88 debt_enrichment - Verification complete for debtor 10: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:07:01,983 INFO 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Verifying contacts for debtor 11: E2E Test
+2025-08-25 22:07:02,011 INFO 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 22:07:02,011 WARNING 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - RPV unavailable/failed for phone +12146093137: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:07:02,012 ERROR 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Both RPV and Twilio failed for phone +12146093137: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:07:02,043 WARNING 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - RPV unavailable/failed for phone +12146093136: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:07:02,044 ERROR 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Both RPV and Twilio failed for phone +12146093136: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:07:02,073 WARNING 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Hunter.io verification failed for email jtpuente6972@outlook.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:07:02,109 INFO 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Email jtpuente6972@outlook.com marked as unverified due to verification failure
+2025-08-25 22:07:02,109 WARNING 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Hunter.io verification failed for email jrpuente69@yahoo.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:07:02,143 INFO 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Email jrpuente69@yahoo.com marked as unverified due to verification failure
+2025-08-25 22:07:02,182 INFO 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 22:07:02,207 INFO 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Removed phone +12146093136 (verified=0, match_strength=50)
+2025-08-25 22:07:02,220 ERROR 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Failed during cleanup policy enforcement: '<' not supported between instances of 'str' and 'int'
+2025-08-25 22:07:02,221 INFO 9b7cd00c-c253-4957-833a-510117b9da66 debt_enrichment - Verification complete for debtor 11: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:13:03,183 INFO dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Verifying contacts for debtor 12: Simple Test
+2025-08-25 22:13:03,213 INFO dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 22:13:03,214 WARNING dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - RPV unavailable/failed for phone +12146093137: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:13:03,215 ERROR dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Both RPV and Twilio failed for phone +12146093137: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:13:03,249 WARNING dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - RPV unavailable/failed for phone +12146093136: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:13:03,250 ERROR dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Both RPV and Twilio failed for phone +12146093136: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:13:03,291 WARNING dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Hunter.io verification failed for email jtpuente6972@outlook.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:13:03,329 INFO dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Email jtpuente6972@outlook.com marked as unverified due to verification failure
+2025-08-25 22:13:03,329 WARNING dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Hunter.io verification failed for email jrpuente69@yahoo.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:13:03,363 INFO dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Email jrpuente69@yahoo.com marked as unverified due to verification failure
+2025-08-25 22:13:03,416 INFO dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 22:13:03,459 INFO dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Removed phone +12146093136 (verified=0, match_strength=50)
+2025-08-25 22:13:03,481 ERROR dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Failed during cleanup policy enforcement: '<' not supported between instances of 'str' and 'int'
+2025-08-25 22:13:03,482 INFO dad448d0-1024-4edc-acd8-d931b13f88bb debt_enrichment - Verification complete for debtor 12: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:17:42,630 INFO ec3fafdb-bbd9-49e0-a184-f92850e1f92f debt_enrichment - Verifying contacts for debtor 1: Kevin Garrett
+2025-08-25 22:17:42,630 INFO ec3fafdb-bbd9-49e0-a184-f92850e1f92f debt_enrichment - Found 1 phones and 1 emails to verify
+2025-08-25 22:17:42,631 INFO ec3fafdb-bbd9-49e0-a184-f92850e1f92f debt_enrichment - Phone +12146093136 verified via RPV with score 100
+2025-08-25 22:17:42,631 INFO ec3fafdb-bbd9-49e0-a184-f92850e1f92f debt_enrichment - Email test@example.com verified via Hunter.io with score 90
+2025-08-25 22:17:42,631 INFO ec3fafdb-bbd9-49e0-a184-f92850e1f92f debt_enrichment - Best phone selected: +12146093136 (score: 100)
+2025-08-25 22:17:42,632 INFO ec3fafdb-bbd9-49e0-a184-f92850e1f92f debt_enrichment - Best email selected: test@example.com (score: 90)
+2025-08-25 22:17:42,632 INFO ec3fafdb-bbd9-49e0-a184-f92850e1f92f debt_enrichment - Updated debtor 1 with best contacts: {'best_phone_id': 1, 'best_email_id': 2}
+2025-08-25 22:17:42,632 INFO ec3fafdb-bbd9-49e0-a184-f92850e1f92f debt_enrichment - Verification complete for debtor 1: 1 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:18:04,810 INFO 7222cd06-3b38-45ff-9ba2-9b152c35a86d debt_enrichment - Verifying contacts for debtor 1: Kevin Garrett
+2025-08-25 22:18:04,811 INFO 7222cd06-3b38-45ff-9ba2-9b152c35a86d debt_enrichment - Found 1 phones and 1 emails to verify
+2025-08-25 22:18:04,811 INFO 7222cd06-3b38-45ff-9ba2-9b152c35a86d debt_enrichment - Phone +12146093136 verified via RPV with score 100
+2025-08-25 22:18:04,811 INFO 7222cd06-3b38-45ff-9ba2-9b152c35a86d debt_enrichment - Email test@example.com verified via Hunter.io with score 90
+2025-08-25 22:18:04,811 INFO 7222cd06-3b38-45ff-9ba2-9b152c35a86d debt_enrichment - Best phone selected: +12146093136 (score: 100)
+2025-08-25 22:18:04,812 INFO 7222cd06-3b38-45ff-9ba2-9b152c35a86d debt_enrichment - Best email selected: test@example.com (score: 90)
+2025-08-25 22:18:04,813 INFO 7222cd06-3b38-45ff-9ba2-9b152c35a86d debt_enrichment - Updated debtor 1 with best contacts: {'best_phone_id': 1, 'best_email_id': 2}
+2025-08-25 22:18:04,813 INFO 7222cd06-3b38-45ff-9ba2-9b152c35a86d debt_enrichment - Verification complete for debtor 1: 1 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:21:13,624 INFO 1174886e-1b65-4498-8c83-0868d9660b4a debt_enrichment - Verifying contacts for debtor 1: Kevin Garrett
+2025-08-25 22:21:13,625 INFO 1174886e-1b65-4498-8c83-0868d9660b4a debt_enrichment - Found 1 phones and 1 emails to verify
+2025-08-25 22:21:13,625 INFO 1174886e-1b65-4498-8c83-0868d9660b4a debt_enrichment - Phone +12146093136 verified via RPV with score 100
+2025-08-25 22:21:13,625 INFO 1174886e-1b65-4498-8c83-0868d9660b4a debt_enrichment - Email test@example.com verified via Hunter.io with score 90
+2025-08-25 22:21:13,626 INFO 1174886e-1b65-4498-8c83-0868d9660b4a debt_enrichment - Best phone selected: +12146093136 (score: 100)
+2025-08-25 22:21:13,627 INFO 1174886e-1b65-4498-8c83-0868d9660b4a debt_enrichment - Best email selected: test@example.com (score: 90)
+2025-08-25 22:21:13,627 INFO 1174886e-1b65-4498-8c83-0868d9660b4a debt_enrichment - Updated debtor 1 with best contacts: {'best_phone_id': 1, 'best_email_id': 2}
+2025-08-25 22:21:13,627 INFO 1174886e-1b65-4498-8c83-0868d9660b4a debt_enrichment - Verification complete for debtor 1: 1 verified phones, 1 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:35:31,964 INFO 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Verifying contacts for debtor 13: Kevin Garrett
+2025-08-25 22:35:31,986 INFO 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 22:35:31,986 WARNING 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - RPV unavailable/failed for phone +12146093137: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:35:31,987 ERROR 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Both RPV and Twilio failed for phone +12146093137: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:35:32,017 WARNING 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - RPV unavailable/failed for phone +12146093136: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:35:32,018 ERROR 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Both RPV and Twilio failed for phone +12146093136: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:35:32,048 WARNING 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Hunter.io verification failed for email jtpuente6972@outlook.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:35:32,082 INFO 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Email jtpuente6972@outlook.com marked as unverified due to verification failure
+2025-08-25 22:35:32,083 WARNING 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Hunter.io verification failed for email jrpuente69@yahoo.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:35:32,117 INFO 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Email jrpuente69@yahoo.com marked as unverified due to verification failure
+2025-08-25 22:35:32,166 INFO 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 22:35:32,196 INFO 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Removed phone +12146093136 (verified=0, match_strength=50)
+2025-08-25 22:35:32,243 INFO 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Removed email jtpuente6972@outlook.com (verified=0, match_strength=50)
+2025-08-25 22:35:32,289 INFO 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Removed email jrpuente69@yahoo.com (verified=0, match_strength=50)
+2025-08-25 22:35:32,290 INFO 36840dae-2d73-4fc8-8d2a-8bb4a4e4129a debt_enrichment - Verification complete for debtor 13: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:37:37,011 INFO 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Verifying contacts for debtor 14: Kevin Garrett
+2025-08-25 22:37:37,031 INFO 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 22:37:37,032 WARNING 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - RPV unavailable/failed for phone +12146093137: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:37:37,033 ERROR 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Both RPV and Twilio failed for phone +12146093137: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:37:37,063 WARNING 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - RPV unavailable/failed for phone +12146093136: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:37:37,063 ERROR 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Both RPV and Twilio failed for phone +12146093136: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:37:37,092 WARNING 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Hunter.io verification failed for email jtpuente6972@outlook.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:37:37,122 INFO 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Email jtpuente6972@outlook.com marked as unverified due to verification failure
+2025-08-25 22:37:37,123 WARNING 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Hunter.io verification failed for email jrpuente69@yahoo.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:37:37,155 INFO 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Email jrpuente69@yahoo.com marked as unverified due to verification failure
+2025-08-25 22:37:37,195 INFO 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 22:37:37,222 INFO 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Removed phone +12146093136 (verified=0, match_strength=50)
+2025-08-25 22:37:37,258 INFO 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Removed email jtpuente6972@outlook.com (verified=0, match_strength=50)
+2025-08-25 22:37:37,283 INFO 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Removed email jrpuente69@yahoo.com (verified=0, match_strength=50)
+2025-08-25 22:37:37,283 INFO 4159b11f-e739-467b-9c2b-719066aa340b debt_enrichment - Verification complete for debtor 14: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:39:54,398 INFO 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Verifying contacts for debtor 15: E2E Test
+2025-08-25 22:39:54,427 INFO 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Found 2 phones and 2 emails to verify
+2025-08-25 22:39:54,428 WARNING 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - RPV unavailable/failed for phone +12146093137: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:39:54,428 ERROR 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Both RPV and Twilio failed for phone +12146093137: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:39:54,462 WARNING 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - RPV unavailable/failed for phone +12146093136: Missing required environment variable: REALPHONEVALIDATION_API_KEY
+2025-08-25 22:39:54,462 ERROR 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Both RPV and Twilio failed for phone +12146093136: Missing required environment variable: TWILIO_ACCOUNT_SID
+2025-08-25 22:39:54,496 WARNING 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Hunter.io verification failed for email jtpuente6972@outlook.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:39:54,528 INFO 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Email jtpuente6972@outlook.com marked as unverified due to verification failure
+2025-08-25 22:39:54,529 WARNING 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Hunter.io verification failed for email jrpuente69@yahoo.com: Missing required environment variable: HUNTER_API_KEY
+2025-08-25 22:39:54,559 INFO 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Email jrpuente69@yahoo.com marked as unverified due to verification failure
+2025-08-25 22:39:54,594 INFO 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 22:39:54,617 INFO 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Removed phone +12146093136 (verified=0, match_strength=50)
+2025-08-25 22:39:54,653 INFO 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Removed email jtpuente6972@outlook.com (verified=0, match_strength=50)
+2025-08-25 22:39:54,678 INFO 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Removed email jrpuente69@yahoo.com (verified=0, match_strength=50)
+2025-08-25 22:39:54,679 INFO 890fe78d-93c3-4956-b448-9225c0145c73 debt_enrichment - Verification complete for debtor 15: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:47:48,171 WARNING 6a5225cc-da45-4c33-b5df-b73457091504 debt_enrichment - Apify failed for Live Test: Apify error: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/one-api~skip-trace/run-sync?token=P4sxNan_ZpiFnLpzBsliKg, trying RapidAPI fallback
+2025-08-25 22:47:48,179 INFO 6a5225cc-da45-4c33-b5df-b73457091504 debt_enrichment - Verifying contacts for debtor 16: Live Test
+2025-08-25 22:47:48,218 INFO 6a5225cc-da45-4c33-b5df-b73457091504 debt_enrichment - Found 0 phones and 0 emails to verify
+2025-08-25 22:47:48,262 INFO 6a5225cc-da45-4c33-b5df-b73457091504 debt_enrichment - Verification complete for debtor 16: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed
+2025-08-25 22:57:19,732 WARNING 4a0af4a5-bc57-4ebe-94c9-30645782a346 debt_enrichment - Apify failed for Skiptrace Test: Apify error: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/one-api~skip-trace/run-sync?token=P4sxNan_ZpiFnLpzBsliKg, trying RapidAPI fallback
+2025-08-25 22:58:39,625 INFO 74c9d3f9-1c7d-4089-b718-e99183387ed7 debt_enrichment - Verifying contacts for debtor 19: Verify Test
+2025-08-25 22:58:39,651 INFO 74c9d3f9-1c7d-4089-b718-e99183387ed7 debt_enrichment - Found 1 phones and 1 emails to verify
+2025-08-25 22:58:41,159 INFO 74c9d3f9-1c7d-4089-b718-e99183387ed7 debt_enrichment - Phone +12146093137 failed RPV verification: unauthorized
+2025-08-25 22:58:42,953 INFO 74c9d3f9-1c7d-4089-b718-e99183387ed7 debt_enrichment - Email test@example.com failed Hunter.io verification: disposable
+2025-08-25 22:58:43,043 INFO 74c9d3f9-1c7d-4089-b718-e99183387ed7 debt_enrichment - Removed phone +12146093137 (verified=0, match_strength=50)
+2025-08-25 22:58:43,099 INFO 74c9d3f9-1c7d-4089-b718-e99183387ed7 debt_enrichment - Removed email test@example.com (verified=0, match_strength=50)
+2025-08-25 22:58:43,100 INFO 74c9d3f9-1c7d-4089-b718-e99183387ed7 debt_enrichment - Verification complete for debtor 19: 0 verified phones, 0 verified emails, 0 phones removed, 0 emails removed

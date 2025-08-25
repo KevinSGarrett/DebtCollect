@@ -1,0 +1,46 @@
+﻿{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "bootstrap",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy","Bypass","-Command",
+        "python -m venv .venv; .venv\\Scripts\\python.exe -m pip install -U pip; .venv\\Scripts\\pip.exe install -r requirements.txt -r requirements-dev.txt; if (Get-Command .venv\\Scripts\\pre-commit.exe -ErrorAction SilentlyContinue) { .venv\\Scripts\\pre-commit.exe install }"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "echo build-ok",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "gate",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-ExecutionPolicy","Bypass","-File","scripts\\quality_gate.ps1"],
+      "problemMatcher": []
+    },
+    {
+      "label": "precommit:install",
+      "type": "shell",
+      "command": ".venv\\Scripts\\pip.exe install -r requirements-dev.txt && .venv\\Scripts\\pre-commit.exe install",
+      "problemMatcher": []
+    },
+    {
+      "label": "precommit:run-all",
+      "type": "shell",
+      "command": ".venv\\Scripts\\pre-commit.exe run --all-files",
+      "problemMatcher": []
+    },
+    {
+      "label": "run:collectibility",
+      "type": "shell",
+      "command": ".venv\\Scripts\\python.exe -m workflows.collectibility_workflow --csv data\\sample_input.csv"
+    }
+  ]
+}

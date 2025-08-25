@@ -1,0 +1,16 @@
+[run]
+source = .
+relative_files = True
+
+[report]
+include =
+    workflows/*
+    debt_collectibility/*
+omit =
+    debt_collectibility/utils/__init__.py
+
+    tests/*
+    .venv/*
+    dist/*
+    build/*
+    node_modules/*

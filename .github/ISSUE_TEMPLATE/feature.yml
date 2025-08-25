@@ -1,0 +1,15 @@
+﻿name: Feature request
+description: Ask the AI to implement a feature aligned to SPEC
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What outcome do we want? Link to docs/SPEC.md section if relevant.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List explicit checks the code must satisfy

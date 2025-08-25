@@ -1,0 +1,37 @@
+First Name
+Middle Initial
+Middle Name
+Last Name
+Debt Owed
+Address
+City
+State
+Zip Code
+Address Verified (Y/N)
+Address Verified Date
+Phone #1
+Phone #1 Verified (Y/N)
+Phone #1 Verified Date
+Phone #1 Verified With
+Phone #2 
+Phone #2 Verified (Y/N)
+Phone #2 Verified Date
+Phone #2 Verified With
+Phone #3 
+Phone #3 Verified (Y/N)
+Phone #3 Verified Date
+Phone #3 Verified With
+Email #1 
+Email #1 Verified (Y/N)
+Email #1 Verified Date
+Email #1 Verified With
+Email #2 
+Email #2 Verified (Y/N)
+Email #2 Verified Date
+Email #2 Verified With
+Email #3 
+Email #3 Verified (Y/N)
+Email #3 Verified Date
+Email #3 Verified With
+
+

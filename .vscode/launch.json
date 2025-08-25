@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Collectibility (module)",
+      "type": "python",
+      "request": "launch",
+      "module": "workflows.collectibility_workflow",
+      "args": ["--csv", "data/sample_input.csv", "--out", "data/output/enriched_results.csv"],
+      "justMyCode": true,
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "preLaunchTask": "gate"
+    },
+    {
+      "name": "Collectibility (console script)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/.venv/Scripts/collectibility.exe",
+      "args": ["--csv", "data/sample_input.csv", "--out", "data/output/enriched_results.csv"],
+      "justMyCode": true,
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "preLaunchTask": "gate"
+    },
+    {
+      "name": "Pytest: all tests",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-q", "--maxfail=1", "--disable-warnings"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": true
+    }
+  ]
+}

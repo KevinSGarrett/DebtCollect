@@ -1,0 +1,225 @@
+directus_version: 11.x
+notes:
+  - Directus types reflect the field "type" as shown by /fields.
+  - db_type reflects the underlying PostgreSQL column type.
+  - JSON-ish long blobs are stored as text, with UI interface set to Code(JSON).
+  - Primary keys (id) are integers (Directus default auto-increment).
+
+collections:
+
+  debtors:
+    fields:
+      - { field: id,                      directus_type: integer,  db_type: integer,        primary_key: true }
+      - { field: first_name,              directus_type: string,   db_type: character varying }
+      - { field: last_name,               directus_type: string,   db_type: character varying }
+      - { field: full_name,               directus_type: string,   db_type: character varying, computed: "DB trigger fills from first/last" }
+      - { field: address_line1,           directus_type: string,   db_type: character varying }
+      - { field: address_line2,           directus_type: string,   db_type: character varying }
+      - { field: city,                    directus_type: string,   db_type: character varying }
+      - { field: state,                   directus_type: string,   db_type: character varying }
+      - { field: zip,                     directus_type: string,   db_type: character varying }
+      - { field: debt_owed,               directus_type: decimal,  db_type: numeric }
+      - { field: currency,                directus_type: string,   db_type: character varying }
+      - { field: source,                  directus_type: string,   db_type: character varying }
+      - { field: usps_standardized,       directus_type: boolean,  db_type: boolean }
+      - { field: standardized_address_id, directus_type: integer,  db_type: integer,        relation: addresses.id (o2o/m2o from debtors) }
+      - { field: age,                     directus_type: integer,  db_type: integer }
+      - { field: dob,                     directus_type: date,     db_type: date }
+      - { field: best_phone_id,           directus_type: integer,  db_type: integer,        relation: phones.id (o2o/m2o from debtors) }
+      - { field: best_email_id,           directus_type: integer,  db_type: integer,        relation: emails.id (o2o/m2o from debtors) }
+      - { field: business_confidence,     directus_type: integer,  db_type: integer }
+      - { field: collectibility_score,    directus_type: integer,  db_type: integer }
+      - { field: collectibility_reason,   directus_type: text,     db_type: text }
+      - { field: enrichment_status,       directus_type: string,   db_type: character varying }
+      - { field: last_enriched_at,        directus_type: dateTime, db_type: timestamp without time zone }
+      - { field: flags,                   directus_type: text,     db_type: text }        # JSON string
+      - { field: raw_notes,               directus_type: text,     db_type: text }
+      - { field: created_at,              directus_type: dateTime, db_type: timestamp without time zone }
+      - { field: updated_at,              directus_type: dateTime, db_type: timestamp without time zone }
+
+  addresses:
+    fields:
+      - { field: id,            directus_type: integer,  db_type: integer, primary_key: true }
+      - { field: debtor_id,     directus_type: integer,  db_type: integer, relation: debtors.id (m2o) }
+      - { field: line1,         directus_type: string,   db_type: character varying }
+      - { field: line2,         directus_type: string,   db_type: character varying }
+      - { field: city,          directus_type: string,   db_type: character varying }
+      - { field: state,         directus_type: string,   db_type: character varying }
+      - { field: zip5,          directus_type: string,   db_type: character varying }
+      - { field: zip4,          directus_type: string,   db_type: character varying }
+      - { field: dpv_confirmation, directus_type: string, db_type: character varying }
+      - { field: carrier_route, directus_type: string,   db_type: character varying }
+      - { field: confidence,    directus_type: integer,  db_type: integer }
+      - { field: provenance,    directus_type: string,   db_type: character varying }
+      - { field: raw_payload,   directus_type: text,     db_type: text }     # JSON string
+      - { field: created_at,    directus_type: dateTime, db_type: timestamp without time zone }
+
+  phones:
+    fields:
+      - { field: id,                 directus_type: integer,  db_type: integer, primary_key: true }
+      - { field: debtor_id,          directus_type: integer,  db_type: integer, relation: debtors.id (m2o) }
+      - { field: phone_e164,         directus_type: string,   db_type: character varying }
+      - { field: line_type,          directus_type: string,   db_type: character varying }
+      - { field: carrier_name,       directus_type: string,   db_type: character varying }
+      - { field: first_seen,         directus_type: date,     db_type: date }
+      - { field: last_seen,          directus_type: date,     db_type: date }
+      - { field: rpv_status,         directus_type: string,   db_type: character varying }
+      - { field: rpv_confidence,     directus_type: integer,  db_type: integer }
+      - { field: twilio_status,      directus_type: string,   db_type: character varying }
+      - { field: verification_score, directus_type: integer,  db_type: integer }
+      - { field: is_verified,        directus_type: boolean,  db_type: boolean }
+      - { field: match_strength,     directus_type: integer,  db_type: integer }
+      - { field: provenance,         directus_type: string,   db_type: character varying }
+      - { field: raw_payload,        directus_type: text,     db_type: text }   # JSON string
+      - { field: created_at,         directus_type: dateTime, db_type: timestamp without time zone }
+    constraints:
+      unique:
+        - [debtor_id, phone_e164]   # uniq_phones_debtor_phone
+
+  emails:
+    fields:
+      - { field: id,            directus_type: integer,  db_type: integer, primary_key: true }
+      - { field: debtor_id,     directus_type: integer,  db_type: integer, relation: debtors.id (m2o) }
+      - { field: email,         directus_type: string,   db_type: character varying }
+      - { field: hunter_status, directus_type: string,   db_type: character varying }
+      - { field: hunter_score,  directus_type: integer,  db_type: integer }
+      - { field: first_seen,    directus_type: date,     db_type: date }
+      - { field: last_seen,     directus_type: date,     db_type: date }
+      - { field: is_verified,   directus_type: boolean,  db_type: boolean }
+      - { field: match_strength,directus_type: integer,  db_type: integer }
+      - { field: provenance,    directus_type: string,   db_type: character varying }
+      - { field: raw_payload,   directus_type: text,     db_type: text }   # JSON string
+      - { field: created_at,    directus_type: dateTime, db_type: timestamp without time zone }
+    constraints:
+      unique:
+        - [debtor_id, email]         # uniq_emails_debtor_email
+
+  bankruptcy_cases:
+    fields:
+      - { field: id,             directus_type: integer,  db_type: integer, primary_key: true }
+      - { field: debtor_id,      directus_type: integer,  db_type: integer, relation: debtors.id (m2o) }
+      - { field: case_number,    directus_type: string,   db_type: character varying }
+      - { field: court,          directus_type: string,   db_type: character varying }
+      - { field: chapter,        directus_type: string,   db_type: character varying }
+      - { field: filed_date,     directus_type: date,     db_type: date }
+      - { field: status,         directus_type: string,   db_type: character varying }
+      - { field: discharge_date, directus_type: date,     db_type: date }
+      - { field: assets,         directus_type: decimal,  db_type: numeric }
+      - { field: liabilities,    directus_type: decimal,  db_type: numeric }
+      - { field: docket_url,     directus_type: string,   db_type: character varying }
+      - { field: source,         directus_type: string,   db_type: character varying }
+      - { field: confidence,     directus_type: integer,  db_type: integer }
+      - { field: raw_payload,    directus_type: text,     db_type: text }   # JSON string
+      - { field: last_checked_at,directus_type: dateTime, db_type: timestamp without time zone }
+    indexes:
+      - name: idx_bankruptcy_cases_debtor_filed
+        columns: [debtor_id, filed_date]
+
+  properties:
+    fields:
+      - { field: id,                directus_type: integer,  db_type: integer, primary_key: true }
+      - { field: debtor_id,         directus_type: integer,  db_type: integer, relation: debtors.id (m2o) }
+      - { field: address_line1,     directus_type: string,   db_type: character varying }
+      - { field: address_line2,     directus_type: string,   db_type: character varying }
+      - { field: city,              directus_type: string,   db_type: character varying }
+      - { field: state,             directus_type: string,   db_type: character varying }
+      - { field: zip,               directus_type: string,   db_type: character varying }
+      - { field: attom_property_id, directus_type: string,   db_type: character varying }
+      - { field: market_value,      directus_type: decimal,  db_type: numeric }
+      - { field: assessed_value,    directus_type: decimal,  db_type: numeric }
+      - { field: tax_year,          directus_type: integer,  db_type: integer }
+      - { field: annual_tax,        directus_type: decimal,  db_type: numeric }
+      - { field: owner_occupied,    directus_type: boolean,  db_type: boolean }
+      - { field: value_source,      directus_type: string,   db_type: character varying }
+      - { field: raw_payload,       directus_type: text,     db_type: text }   # JSON string
+      - { field: last_checked_at,   directus_type: dateTime, db_type: timestamp without time zone }
+    indexes:
+      - name: idx_properties_debtor
+        columns: [debtor_id]
+
+  businesses:
+    fields:
+      - { field: id,              directus_type: integer,  db_type: integer, primary_key: true }
+      - { field: name,            directus_type: string,   db_type: character varying }
+      - { field: address_line1,   directus_type: string,   db_type: character varying }
+      - { field: city,            directus_type: string,   db_type: character varying }
+      - { field: state,           directus_type: string,   db_type: character varying }
+      - { field: zip,             directus_type: string,   db_type: character varying }
+      - { field: phone,           directus_type: string,   db_type: character varying }
+      - { field: website,         directus_type: string,   db_type: character varying }
+      - { field: google_place_id, directus_type: string,   db_type: character varying }
+      - { field: apollo_id,       directus_type: string,   db_type: character varying }
+      - { field: active,          directus_type: boolean,  db_type: boolean }
+      - { field: raw_payload,     directus_type: text,     db_type: text }   # JSON string
+
+  debtor_businesses:
+    fields:
+      - { field: id,           directus_type: integer,  db_type: integer, primary_key: true }
+      - { field: debtor_id,    directus_type: integer,  db_type: integer, relation: debtors.id (m2o) }
+      - { field: business_id,  directus_type: integer,  db_type: integer, relation: businesses.id (m2o) }
+      - { field: role,         directus_type: string,   db_type: character varying }
+      - { field: confidence,   directus_type: integer,  db_type: integer }
+    constraints:
+      unique:
+        - [debtor_id, business_id]   # uniq_debtor_business_pair
+
+  enrichment_runs:
+    fields:
+      - { field: id,            directus_type: integer,  db_type: integer, primary_key: true }
+      - { field: debtor_id,     directus_type: integer,  db_type: integer, relation: debtors.id (m2o) }
+      - { field: started_at,    directus_type: dateTime, db_type: timestamp without time zone }
+      - { field: finished_at,   directus_type: dateTime, db_type: timestamp without time zone }
+      - { field: status,        directus_type: string,   db_type: character varying }
+      - { field: stage_results, directus_type: text,     db_type: text }    # JSON string
+      - { field: errors,        directus_type: text,     db_type: text }    # JSON string
+      - { field: duration_ms,   directus_type: integer,  db_type: integer }
+
+  scoring_snapshots:
+    fields:
+      - { field: id,          directus_type: integer,  db_type: integer, primary_key: true }
+      - { field: debtor_id,   directus_type: integer,  db_type: integer, relation: debtors.id (m2o) }
+      - { field: score,       directus_type: integer,  db_type: integer }
+      - { field: reason,      directus_type: text,     db_type: text }
+      - { field: inputs,      directus_type: text,     db_type: text }     # JSON string
+      - { field: created_at,  directus_type: dateTime, db_type: timestamp without time zone }
+
+relations:
+  # child.collection.field -> parent.collection
+  - { from: addresses.debtor_id,            to: debtors.id,            on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: phones.debtor_id,               to: debtors.id,            on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: emails.debtor_id,               to: debtors.id,            on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: bankruptcy_cases.debtor_id,     to: debtors.id,            on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: properties.debtor_id,           to: debtors.id,            on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: debtor_businesses.debtor_id,    to: debtors.id,            on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: debtor_businesses.business_id,  to: businesses.id,         on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: debtors.standardized_address_id,to: addresses.id,          on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: debtors.best_phone_id,          to: phones.id,             on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: debtors.best_email_id,          to: emails.id,             on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: enrichment_runs.debtor_id,      to: debtors.id,            on_delete: NO ACTION, on_update: NO ACTION }
+  - { from: scoring_snapshots.debtor_id,    to: debtors.id,            on_delete: NO ACTION, on_update: NO ACTION }
+
+constraints:
+  uniques:
+    - table: phones
+      columns: [debtor_id, phone_e164]
+      name: uniq_phones_debtor_phone
+    - table: emails
+      columns: [debtor_id, email]
+      name: uniq_emails_debtor_email
+    - table: debtor_businesses
+      columns: [debtor_id, business_id]
+      name: uniq_debtor_business_pair
+
+indexes:
+  - { name: idx_phones_debtor_verified_lastseen,  table: phones,            columns: [debtor_id, is_verified, last_seen] }
+  - { name: idx_emails_debtor_verified,          table: emails,            columns: [debtor_id, is_verified] }
+  - { name: idx_bankruptcy_cases_debtor_filed,   table: bankruptcy_cases,  columns: [debtor_id, filed_date] }
+  - { name: idx_properties_debtor,               table: properties,        columns: [debtor_id] }
+
+db_triggers:
+  - table: debtors
+    name: trg_set_debtors_full_name
+    timing: BEFORE
+    events: [INSERT, "UPDATE OF first_name, last_name"]
+    function: set_debtors_full_name()
+    purpose: "Compute full_name = first_name + ' ' + last_name"

@@ -1,0 +1,43 @@
+﻿name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+      - name: Install deps
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements.txt -r requirements-dev.txt
+      - name: Ruff (lint)
+        run: ruff check .
+      - name: MyPy
+        run: mypy .
+      - name: Tests + Coverage
+        run: |
+          pytest -q --maxfail=1 --disable-warnings --cov=. --cov-report=xml
+      - name: Coverage gate (85%)
+        run: |
+          python - << 'PY'
+          import xml.etree.ElementTree as ET
+          r = ET.parse("coverage.xml").getroot()
+          rate = r.attrib.get("line-rate")
+          if rate is None:
+              covered = sum(float(c.attrib.get("lines-covered","0")) for c in r.findall(".//class"))
+              valid   = sum(float(c.attrib.get("lines-valid","0")) for c in r.findall(".//class"))
+              pct = 0 if valid == 0 else round(covered/valid*100, 2)
+          else:
+              pct = round(float(rate)*100, 2)
+          print("Coverage:", pct)
+          assert pct >= 85, "Coverage below 85%"
+          PY

@@ -1,0 +1,21 @@
+﻿{
+  "version": "0.2",
+  "ignorePaths": [
+    "debt-collectibility/**",
+    ".venv/**",
+    "dist/**",
+    "build/**",
+    "node_modules/**"
+  ],
+  "words": [
+    "Apify",
+    "apify",
+    "skiptrace",
+    "RAPIDAPI",
+    "rapidapi",
+    "Directus",
+    "REALPHONEVALIDATION",
+    "ATTOM",
+    "CourtListener"
+  ]
+}

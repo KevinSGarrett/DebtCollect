@@ -1,0 +1,27 @@
+﻿# ==== Cursor House Rules (Python) ====
+- Use Python 3.11+.
+- Use Ruff for lint + format (line-length 100) and import sort. Keep "ruff check --fix" clean.
+- Use MyPy strict for new/changed files. Pass "mypy ." with no errors.
+- Use pytest; keep tests fast and deterministic. Shoot for >=85% coverage.
+- Keep functions < 50 lines; prefer pure, side-effect-light functions.
+- No secrets. Use .env (example provided) and os.environ for config.
+- Organize package as "debt_collectibility/*" with clear agents, utils, workflows.
+- Document modules (top-level docstring) and public functions (type hints + docstrings).
+- Keep SPEC.md and ACCEPTANCE_CRITERIA.md current after major changes.
+- Do not modify gates; make code comply.
+
+# ==== Project Structure ====
+debt_collectibility/
+  agents/        # Verifier, Bankruptcy, Phone, Email, Property, Scoring
+  utils/         # API clients, parsers, logging, rate-limiters
+  __init__.py
+workflows/
+  collectibility_workflow.py
+tests/
+  unit/ + integration/
+data/
+  sample_input.csv
+
+# ==== Commit Discipline ====
+- Small commits tied to passing tests.
+- If a test fails, fix or update tests with rationale in commit.

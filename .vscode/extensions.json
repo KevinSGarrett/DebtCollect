@@ -1,0 +1,19 @@
+﻿{
+  "recommendations": [
+    "ms-python.python",
+    "charliermarsh.ruff",
+    "ms-python.debugpy",
+    "ms-pyright.pyright",
+    "yzhang.markdown-all-in-one",
+    "eamodio.gitlens",
+    "redhat.vscode-yaml",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "usernamehw.errorlens",
+    "editorconfig.editorconfig",
+    "ryanluker.vscode-coverage-gutters",
+    "streetsidesoftware.code-spell-checker",
+    "rangav.vscode-thunder-client",
+    "ms-vscode.makefile-tools"
+  ]
+}

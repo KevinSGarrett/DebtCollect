@@ -1,0 +1,17 @@
+﻿{
+  "task.allowAutomaticTasks": "on",
+  "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.exclude": [
+    "debt-collectibility",
+    ".venv",
+    "dist",
+    "build",
+    "node_modules"
+  ],
+  "cSpell.configFile": "${workspaceFolder}/.vscode/cspell.json",
+  "files.exclude": {
+    "debt-collectibility": true
+  }
+}

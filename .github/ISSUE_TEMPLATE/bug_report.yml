@@ -1,0 +1,13 @@
+﻿name: Bug report
+description: Report a failing test, type error, or behavior gap
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps

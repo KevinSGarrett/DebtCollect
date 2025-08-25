@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "debt-collectibility"
+version = "0.1.0"
+description = "Debt Collectibility Workflow (auto-built by Cursor)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+collectibility = "workflows.collectibility_workflow:cli"
+
+[tool.setuptools]
+packages = ["debt_collectibility", "workflows"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = ["debt-collectibility", ".venv", "dist", "build", "htmlcov", "node_modules"]
+
+[tool.ruff.lint]
+select = ["E","F","I","UP","B","SIM","ANN","C4"]
+
+[tool.ruff.format]
+quote-style = "preserve"
+
+[tool.mypy]
+files = ["workflows", "debt_collectibility", "tests"]
+exclude = "(^debt-collectibility[/\\\\])|(^debt-collectibility$)"
+python_version = "3.11"
+strict = true
+warn_unused_ignores = true
+ignore_missing_imports = false
+explicit_package_bases = true
+mypy_path = "."
+namespace_packages = true

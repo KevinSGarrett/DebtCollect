@@ -1,0 +1,18 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/microsoft/pyright/main/packages/pyright/schema/pyrightconfig.schema.json",
+  "venvPath": ".",
+  "venv": ".venv",
+  "typeCheckingMode": "basic",
+  "include": ["workflows", "debt_collectibility"],
+  "exclude": [
+    "debt-collectibility",   // legacy folder we don't use
+    ".venv",
+    "dist",
+    "build",
+    "node_modules"
+  ],
+  "diagnosticSeverityOverrides": {
+    // Requests “could not be resolved from source” in ignored dirs? Keep it quiet.
+    "reportMissingModuleSource": "none"
+  }
+}

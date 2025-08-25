@@ -1,0 +1,6 @@
+first_name,last_name,possible_address,amount_owed,verified_address,address_confidence,has_bankruptcy,phones_valid,emails_valid,property_present,owner_occupied_likelihood,collectibility_score,reason
+,Garrett,"14823 Highland Ridge, Montgomery, TX 77316",10000,"14823 Highland Ridge, Montgomery, TX 77316",0.9,False,1,0,1,0.6,8,addr/phone/email/bk/property heuristic
+,Garrett,"1212 N. Loop 336 West, Conroe, TX 77301",7500,"1212 N. Loop 336 West, Conroe, TX 77301",0.9,False,1,0,1,0.6,8,addr/phone/email/bk/property heuristic
+,Millican,"4135 Still Glade Ln, Kingwood, TX 77345",15000,"4135 Still Glade Ln, Kingwood, TX 77345",0.9,True,0,0,1,0.6,4,addr/phone/email/bk/property heuristic
+,Tilton,,35000,,0.0,True,0,1,0,0.0,2,addr/phone/email/bk/property heuristic
+,Garrett,"1212 N. Loop 336 West, Conroe, TX 77301",56000,"1212 N. Loop 336 West, Conroe, TX 77301",0.9,False,1,0,1,0.6,8,addr/phone/email/bk/property heuristic

@@ -1,0 +1,18 @@
+﻿.venv/
+__pycache__/
+*.pyc
+.env
+.coverage
+.pytest_cache/
+htmlcov/
+dist/
+build/
+.DS_Store
+# Local secrets and scratch prompts
+.env
+.env.*.local
+cursoraiprompt*.txt
+# Extra local env/test files & scratch docs
+.env*.txt
+*.env*.txt
+cursor_build_*.md

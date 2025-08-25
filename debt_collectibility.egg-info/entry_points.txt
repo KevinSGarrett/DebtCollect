@@ -1,0 +1,2 @@
+[console_scripts]
+collectibility = workflows.collectibility_workflow:cli

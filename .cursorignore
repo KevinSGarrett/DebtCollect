@@ -1,0 +1,12 @@
+﻿# Ignore build artifacts & secrets
+.venv/
+__pycache__/
+*.pyc
+.env
+*.coverage
+.pytest_cache/
+dist/
+build/
+htmlcov/
+node_modules/
+coverage.xml
