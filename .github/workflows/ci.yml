@@ -1,43 +1,58 @@
 ﻿name: ci
+
 on:
   push:
+    branches: [ main ]
   pull_request:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
+    name: build (3.12)
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.12"]
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-          cache: "pip"
+          cache: pip
+
       - name: Install deps
+        shell: bash
         run: |
-          python -m pip install -U pip
-          pip install -r requirements.txt -r requirements-dev.txt
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+
+      - name: Install package (editable)
+        run: pip install -e .
+
       - name: Ruff (lint)
         run: ruff check .
+
       - name: MyPy
         run: mypy .
+
       - name: Tests + Coverage
-        run: |
-          pytest -q --maxfail=1 --disable-warnings --cov=. --cov-report=xml
+        run: pytest -q --maxfail=1 --disable-warnings --cov=. --cov-report=xml
+
       - name: Coverage gate (85%)
+        if: always()
         run: |
           python - << 'PY'
-          import xml.etree.ElementTree as ET
-          r = ET.parse("coverage.xml").getroot()
-          rate = r.attrib.get("line-rate")
-          if rate is None:
-              covered = sum(float(c.attrib.get("lines-covered","0")) for c in r.findall(".//class"))
-              valid   = sum(float(c.attrib.get("lines-valid","0")) for c in r.findall(".//class"))
-              pct = 0 if valid == 0 else round(covered/valid*100, 2)
-          else:
-              pct = round(float(rate)*100, 2)
-          print("Coverage:", pct)
-          assert pct >= 85, "Coverage below 85%"
+          import xml.etree.ElementTree as ET, sys
+          root = ET.parse('coverage.xml').getroot()
+          rate = float(root.get('line-rate', '0') or 0)
+          pct = rate * 100
+          thresh = 85.0
+          print(f"coverage: {pct:.2f}% (threshold {thresh}%)")
+          sys.exit(0 if pct >= thresh else 1)
           PY
