@@ -23,6 +23,8 @@ jobs:
         run: ruff check .
       - name: MyPy
         run: mypy .
+  - name: Install package (editable)
+    run: pip install -e .
       - name: Tests + Coverage
         run: |
           pytest -q --maxfail=1 --disable-warnings --cov=. --cov-report=xml
