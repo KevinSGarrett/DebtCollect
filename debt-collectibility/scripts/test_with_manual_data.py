@@ -42,7 +42,9 @@ def test_skiptrace_with_manual_data():
         "zip": "77301",
     }
 
-    print(f"\nTesting with debtor: {test_debtor['first_name']} {test_debtor['last_name']}")
+    print(
+        f"\nTesting with debtor: {test_debtor['first_name']} {test_debtor['last_name']}"
+    )
     print(
         f"Address: {test_debtor['address_line1']}, {test_debtor['city']}, {test_debtor['state']} {test_debtor['zip']}"
     )

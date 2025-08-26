@@ -31,7 +31,8 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
         emails = []
     contactability = 0
     has_verified_phone = any(
-        p.get("is_verified") and (p.get("line_type") in ("mobile", "voip", None)) for p in phones
+        p.get("is_verified") and (p.get("line_type") in ("mobile", "voip", None))
+        for p in phones
     )
     has_verified_email = any(e.get("is_verified") for e in emails)
     if has_verified_phone:
@@ -46,7 +47,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
 
     # Bankruptcy penalty (>= -20)
     try:
-        cases = dx.list_related("bankruptcy_cases", {"debtor_id": {"_eq": debtor_id}}, limit=5)
+        cases = dx.list_related(
+            "bankruptcy_cases", {"debtor_id": {"_eq": debtor_id}}, limit=5
+        )
     except Exception:
         cases = []
     bankruptcy_penalty = 0
@@ -64,7 +67,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
 
     # Capacity proxy (<=25)
     try:
-        properties = dx.list_related("properties", {"debtor_id": {"_eq": debtor_id}}, limit=5)
+        properties = dx.list_related(
+            "properties", {"debtor_id": {"_eq": debtor_id}}, limit=5
+        )
     except Exception:
         properties = []
     market_value: float | None = None
@@ -92,7 +97,10 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
     else:
         # If only census median stored
         for p in properties:
-            if p.get("value_source") == "census_zip_median" and p.get("market_value") is not None:
+            if (
+                p.get("value_source") == "census_zip_median"
+                and p.get("market_value") is not None
+            ):
                 try:
                     mv_num = float(p["market_value"])
                 except (TypeError, ValueError):
@@ -108,7 +116,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
     except (TypeError, ValueError):
         business_confidence = 0
     business_points = min(
-        10, (6 if business_confidence >= 50 else 0) + (4 if business_confidence >= 70 else 0)
+        10,
+        (6 if business_confidence >= 50 else 0)
+        + (4 if business_confidence >= 70 else 0),
     )
 
     # Stability/Freshness (<=10)

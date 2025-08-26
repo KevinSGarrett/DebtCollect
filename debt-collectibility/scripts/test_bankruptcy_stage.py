@@ -54,7 +54,9 @@ def main():
 
         try:
             bankruptcy_run(debtor, dx)
-            cases = dx.list_related("bankruptcy_cases", {"debtor_id": {"_eq": debtor_id}}, limit=50)
+            cases = dx.list_related(
+                "bankruptcy_cases", {"debtor_id": {"_eq": debtor_id}}, limit=50
+            )
             print(f"[INFO] Bankruptcy cases for debtor {debtor_id}: {len(cases)}")
             for c in cases:
                 print(

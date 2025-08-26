@@ -17,7 +17,9 @@ class RequestIdFilter(logging.Filter):
         return True
 
 
-def get_logger(name: str = "debt_enrichment", request_id: str | None = None) -> logging.Logger:
+def get_logger(
+    name: str = "debt_enrichment", request_id: str | None = None
+) -> logging.Logger:
     level_name = os.getenv("LOG_LEVEL", "INFO").upper()
     level = getattr(logging, level_name, logging.INFO)
 
@@ -39,7 +41,9 @@ def get_logger(name: str = "debt_enrichment", request_id: str | None = None) -> 
             log_dir.mkdir(parents=True, exist_ok=True)
             log_file = str(log_dir / "pipeline.log")
         try:
-            file_handler = RotatingFileHandler(log_file, maxBytes=2_000_000, backupCount=5)
+            file_handler = RotatingFileHandler(
+                log_file, maxBytes=2_000_000, backupCount=5
+            )
             file_handler.setLevel(level)
             file_handler.setFormatter(logging.Formatter(fmt))
             file_handler.addFilter(RequestIdFilter(request_id))

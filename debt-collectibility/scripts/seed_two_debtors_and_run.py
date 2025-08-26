@@ -29,7 +29,9 @@ def upsert_debtor(
     if existing:
         debtor = existing[0]
         dx.update_row(
-            "debtors", debtor["id"], {"debt_owed": float(debt), "enrichment_status": "pending"}
+            "debtors",
+            debtor["id"],
+            {"debt_owed": float(debt), "enrichment_status": "pending"},
         )
         return int(debtor["id"])
     created = dx.create_row(
@@ -52,11 +54,21 @@ def main() -> None:
     load_dotenv()
     dx = DirectusClient.from_env()
 
-    addr = {"line1": "1212 N Loop 336 West", "city": "Conroe", "state": "TX", "zip": "77301"}
+    addr = {
+        "line1": "1212 N Loop 336 West",
+        "city": "Conroe",
+        "state": "TX",
+        "zip": "77301",
+    }
     d1 = upsert_debtor(dx, "Dana", "Garrett", addr, 20000)
     d2 = upsert_debtor(dx, "Linda", "Garrett", addr, 20000)
     # Also seed a known-good subject (from sample) to prove persistence
-    addr2 = {"line1": "3828 Double Oak Ln", "city": "Irving", "state": "TX", "zip": "75061"}
+    addr2 = {
+        "line1": "3828 Double Oak Ln",
+        "city": "Irving",
+        "state": "TX",
+        "zip": "75061",
+    }
     d3 = upsert_debtor(dx, "Hortencia", "Puente", addr2, 15000)
 
     print({"seeded": [d1, d2, d3]})

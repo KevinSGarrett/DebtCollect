@@ -29,7 +29,9 @@ def _apify_skiptrace(
     name_query = f"({first_name} {last_name}; {address.get('city') or ''}, {address.get('state') or ''} {address.get('zip') or ''})"
     payload = {"max_results": 3, "name": [name_query]}
     try:
-        resp = requests.post(f"{base}/run-sync?token={token}", json=payload, timeout=120)
+        resp = requests.post(
+            f"{base}/run-sync?token={token}", json=payload, timeout=120
+        )
         resp.raise_for_status()
         try:
             data = resp.json()
@@ -62,7 +64,9 @@ def _apify_skiptrace(
             # Fallback to dataset items endpoint if OUTPUT is not structured
         # Try dataset items variant
         ds = requests.post(
-            f"{base}/run-sync-get-dataset-items?token={token}", json=payload, timeout=120
+            f"{base}/run-sync-get-dataset-items?token={token}",
+            json=payload,
+            timeout=120,
         )
         ds.raise_for_status()
         try:
@@ -111,7 +115,9 @@ def _rapidapi_skiptrace(
         }
 
         # Search by name and location
-        search_url = "https://usa-people-search-public-records.p.rapidapi.com/SearchPeople"
+        search_url = (
+            "https://usa-people-search-public-records.p.rapidapi.com/SearchPeople"
+        )
         search_params = {
             "FirstName": first_name,
             "LastName": last_name,
@@ -119,7 +125,9 @@ def _rapidapi_skiptrace(
             "Page": "1",
         }
 
-        resp = requests.get(search_url, headers=headers, params=search_params, timeout=30)
+        resp = requests.get(
+            search_url, headers=headers, params=search_params, timeout=30
+        )
         resp.raise_for_status()
 
         data = resp.json()
@@ -208,9 +216,15 @@ def _rapidapi_skiptrace(
                 "First Name": first_name_parsed,
                 "Last Name": last_name_parsed,
                 "Street Address": person.get("Address", ""),
-                "Address Locality": person.get("City", ""),  # Use actual city from API response
-                "Address Region": person.get("State", ""),  # Use actual state from API response
-                "Postal Code": person.get("Zip", ""),  # Use actual zip from API response
+                "Address Locality": person.get(
+                    "City", ""
+                ),  # Use actual city from API response
+                "Address Region": person.get(
+                    "State", ""
+                ),  # Use actual state from API response
+                "Postal Code": person.get(
+                    "Zip", ""
+                ),  # Use actual zip from API response
             }
 
             # Add phones and emails
@@ -391,7 +405,10 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                     continue
                 exists = dx.list_related(
                     "phones",
-                    {"debtor_id": {"_eq": debtor.get("id")}, "phone_e164": {"_eq": e164}},
+                    {
+                        "debtor_id": {"_eq": debtor.get("id")},
+                        "phone_e164": {"_eq": e164},
+                    },
                     limit=1,
                 )
                 if not exists:
@@ -440,7 +457,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                     candidates, meta = _rapidapi_skiptrace(first, last, address)
             except Exception as e:
                 # If Apify fails completely, try RapidAPI
-                log.warning(f"Apify failed for {first} {last}: {e}, trying RapidAPI fallback")
+                log.warning(
+                    f"Apify failed for {first} {last}: {e}, trying RapidAPI fallback"
+                )
                 candidates, meta = _rapidapi_skiptrace(first, last, address)
         accepted: list[dict[str, Any]] = []
         for c in candidates:
@@ -451,7 +470,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                     "name": c.get("fullName")
                     or c.get("name")
                     or c.get("firstName", "") + " " + c.get("lastName", ""),
-                    "street": c.get("street") or c.get("address1") or c.get("addressLine1"),
+                    "street": c.get("street")
+                    or c.get("address1")
+                    or c.get("addressLine1"),
                     "state": c.get("state"),
                     "zip": c.get("zip"),
                 }
@@ -503,7 +524,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                         "name": c.get("fullName")
                         or c.get("name")
                         or c.get("firstName", "") + " " + c.get("lastName", ""),
-                        "street": c.get("street") or c.get("address1") or c.get("addressLine1"),
+                        "street": c.get("street")
+                        or c.get("address1")
+                        or c.get("addressLine1"),
                         "state": c.get("state"),
                         "zip": c.get("zip"),
                     }
@@ -534,7 +557,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
 
             # Take top 2 name-only candidates with verified addresses
             accepted = sorted(
-                name_only_candidates, key=lambda x: x.get("match_strength", 0), reverse=True
+                name_only_candidates,
+                key=lambda x: x.get("match_strength", 0),
+                reverse=True,
             )[:2]
 
         for cand in accepted:
@@ -559,14 +584,19 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                     continue
                 exists = dx.list_related(
                     "phones",
-                    {"debtor_id": {"_eq": debtor.get("id")}, "phone_e164": {"_eq": e164}},
+                    {
+                        "debtor_id": {"_eq": debtor.get("id")},
+                        "phone_e164": {"_eq": e164},
+                    },
                     limit=1,
                 )
                 if exists:
                     continue
                 first_seen, last_seen = _seen_dates(ph)
                 # Parse date strings to proper format
-                parsed_first_seen = _parse_date_string(first_seen) if first_seen else None
+                parsed_first_seen = (
+                    _parse_date_string(first_seen) if first_seen else None
+                )
                 parsed_last_seen = _parse_date_string(last_seen) if last_seen else None
 
                 dx.create_row(
@@ -602,7 +632,10 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                     continue
                 exists = dx.list_related(
                     "emails",
-                    {"debtor_id": {"_eq": debtor.get("id")}, "email": {"_eq": email_norm}},
+                    {
+                        "debtor_id": {"_eq": debtor.get("id")},
+                        "email": {"_eq": email_norm},
+                    },
                     limit=1,
                 )
                 if exists:
@@ -656,7 +689,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                     dx.update_row("debtors", debtor.get("id"), patch)
                     log.info(f"Updated debtor {debtor.get('id')} with: {patch}")
                 except Exception as e:
-                    log.warning(f"Failed to update debtor {debtor.get('id')} with age/dob: {e}")
+                    log.warning(
+                        f"Failed to update debtor {debtor.get('id')} with age/dob: {e}"
+                    )
 
         return patch or None
     except Exception as e:

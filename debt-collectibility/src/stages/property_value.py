@@ -107,7 +107,8 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                     "state": address.get("state"),
                     "zip": address.get("zip"),
                     "market_value": prop.get("assessment", {}).get("market") or None,
-                    "assessed_value": prop.get("assessment", {}).get("assessed") or None,
+                    "assessed_value": prop.get("assessment", {}).get("assessed")
+                    or None,
                     "annual_tax": prop.get("assessment", {}).get("taxamt") or None,
                     "owner_occupied": prop.get("summary", {}).get("ownocc") == "Y",
                     "value_source": "attom",

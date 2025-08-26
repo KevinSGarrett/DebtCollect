@@ -20,11 +20,15 @@ def street_similarity(a: str, b: str) -> int:
 
 
 def match_name_address(debtor: dict, candidate: dict) -> int:
-    debtor_name = ((debtor.get("first_name") or "") + " " + (debtor.get("last_name") or "")).strip()
+    debtor_name = (
+        (debtor.get("first_name") or "") + " " + (debtor.get("last_name") or "")
+    ).strip()
     candidate_name = candidate.get("name") or candidate.get("full_name") or ""
     name_score = name_similarity(debtor_name, candidate_name)
 
-    debtor_state = (debtor.get("state") or debtor.get("address_state") or "").upper().strip()
+    debtor_state = (
+        (debtor.get("state") or debtor.get("address_state") or "").upper().strip()
+    )
     candidate_state = (candidate.get("state") or "").upper().strip()
     debtor_zip = (debtor.get("zip") or debtor.get("address_zip") or "").strip()[:5]
     candidate_zip = (candidate.get("zip") or "").strip()[:5]
@@ -34,9 +38,13 @@ def match_name_address(debtor: dict, candidate: dict) -> int:
     if debtor_zip and candidate_zip and debtor_zip != candidate_zip:
         return 0
 
-    debtor_street = (debtor.get("address_line1") or debtor.get("street") or "").upper().strip()
+    debtor_street = (
+        (debtor.get("address_line1") or debtor.get("street") or "").upper().strip()
+    )
     candidate_street = (
-        (candidate.get("street") or candidate.get("address_line1") or "").upper().strip()
+        (candidate.get("street") or candidate.get("address_line1") or "")
+        .upper()
+        .strip()
     )
     street_score = street_similarity(debtor_street, candidate_street)
 

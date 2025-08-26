@@ -33,7 +33,9 @@ def test_skiptrace_functions():
         if candidates:
             print("   First candidate details:")
             candidate = candidates[0]
-            print(f"     Name: {candidate.get('First Name')} {candidate.get('Last Name')}")
+            print(
+                f"     Name: {candidate.get('First Name')} {candidate.get('Last Name')}"
+            )
             print(f"     Address: {candidate.get('Street Address')}")
             print(f"     City: {candidate.get('Address Locality')}")
             print(f"     State: {candidate.get('Address Region')}")
@@ -82,7 +84,9 @@ def test_skiptrace_functions():
         if candidates:
             print("   First candidate details:")
             candidate = candidates[0]
-            print(f"     Name: {candidate.get('First Name')} {candidate.get('Last Name')}")
+            print(
+                f"     Name: {candidate.get('First Name')} {candidate.get('Last Name')}"
+            )
             print(f"     Address: {candidate.get('Street Address')}")
             print(f"     City: {candidate.get('Address Locality')}")
             print(f"     State: {candidate.get('Address Region')}")

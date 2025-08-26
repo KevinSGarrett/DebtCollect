@@ -59,7 +59,9 @@ def test_pipeline_stages():
     print("\n=== Testing Pipeline Stages ===\n")
 
     for i, debtor_data in enumerate(test_debtors, 1):
-        print(f"--- Testing Debtor {i}: {debtor_data['first_name']} {debtor_data['last_name']} ---")
+        print(
+            f"--- Testing Debtor {i}: {debtor_data['first_name']} {debtor_data['last_name']} ---"
+        )
 
         # Step 1: Create test debtor in Directus
         try:
@@ -84,9 +86,15 @@ def test_pipeline_stages():
 
         # Step 3: Check what was created
         try:
-            phones = dx.list_related("phones", {"debtor_id": {"_eq": debtor_id}}, limit=100)
-            emails = dx.list_related("emails", {"debtor_id": {"_eq": debtor_id}}, limit=100)
-            print(f"[INFO] Found {len(phones)} phones and {len(emails)} emails after skiptrace")
+            phones = dx.list_related(
+                "phones", {"debtor_id": {"_eq": debtor_id}}, limit=100
+            )
+            emails = dx.list_related(
+                "emails", {"debtor_id": {"_eq": debtor_id}}, limit=100
+            )
+            print(
+                f"[INFO] Found {len(phones)} phones and {len(emails)} emails after skiptrace"
+            )
 
             if phones:
                 print("   Phones:")
@@ -119,8 +127,12 @@ def test_pipeline_stages():
 
         # Step 5: Check final state
         try:
-            final_phones = dx.list_related("phones", {"debtor_id": {"_eq": debtor_id}}, limit=100)
-            final_emails = dx.list_related("emails", {"debtor_id": {"_eq": debtor_id}}, limit=100)
+            final_phones = dx.list_related(
+                "phones", {"debtor_id": {"_eq": debtor_id}}, limit=100
+            )
+            final_emails = dx.list_related(
+                "emails", {"debtor_id": {"_eq": debtor_id}}, limit=100
+            )
 
             verified_phones = [p for p in final_phones if p.get("is_verified")]
             verified_emails = [e for e in final_emails if e.get("is_verified")]
@@ -149,12 +161,16 @@ def test_pipeline_stages():
 
         # Clean up test debtor (delete by ids to satisfy Directus filter requirements)
         try:
-            for ph in dx.list_related("phones", {"debtor_id": {"_eq": debtor_id}}, limit=200):
+            for ph in dx.list_related(
+                "phones", {"debtor_id": {"_eq": debtor_id}}, limit=200
+            ):
                 try:
                     dx.delete_row("phones", ph.get("id"))
                 except Exception as de:
                     print(f"⚠️  Could not delete phone {ph.get('id')}: {de}")
-            for em in dx.list_related("emails", {"debtor_id": {"_eq": debtor_id}}, limit=200):
+            for em in dx.list_related(
+                "emails", {"debtor_id": {"_eq": debtor_id}}, limit=200
+            ):
                 try:
                     dx.delete_row("emails", em.get("id"))
                 except Exception as de:

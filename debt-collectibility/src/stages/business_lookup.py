@@ -9,7 +9,9 @@ import requests
 from src.utils.logger import get_logger  # noqa: F401
 
 
-def _google_places_search(query: str, lat: float | None, lng: float | None) -> dict[str, Any]:
+def _google_places_search(
+    query: str, lat: float | None, lng: float | None
+) -> dict[str, Any]:
     api_key = os.getenv("GOOGLE_MAPS_API_KEY")
     if not api_key:
         return {"results": []}
@@ -19,7 +21,9 @@ def _google_places_search(query: str, lat: float | None, lng: float | None) -> d
         params["radius"] = "10000"
     try:
         resp = requests.get(
-            "https://maps.googleapis.com/maps/api/place/textsearch/json", params=params, timeout=30
+            "https://maps.googleapis.com/maps/api/place/textsearch/json",
+            params=params,
+            timeout=30,
         )
         resp.raise_for_status()
         return resp.json()
@@ -46,7 +50,9 @@ def _apollo_search_person(name: str) -> dict[str, Any]:
 
 
 def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
-    full_name = f"{debtor.get('first_name') or ''} {debtor.get('last_name') or ''}".strip()
+    full_name = (
+        f"{debtor.get('first_name') or ''} {debtor.get('last_name') or ''}".strip()
+    )
     query = full_name
     places = _google_places_search(query, None, None)
     confidence = 0
@@ -72,7 +78,10 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
         # link
         link_exists = dx.list_related(
             "debtor_businesses",
-            {"debtor_id": {"_eq": debtor.get("id")}, "business_id": {"_eq": biz_row.get("id")}},
+            {
+                "debtor_id": {"_eq": debtor.get("id")},
+                "business_id": {"_eq": biz_row.get("id")},
+            },
             limit=1,
         )
         if not link_exists:

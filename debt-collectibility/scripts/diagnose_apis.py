@@ -22,7 +22,9 @@ def main() -> None:
     try:
         token = os.getenv("APIFY_TOKEN")
         r = requests.get(
-            "https://api.apify.com/v2/me", headers={"Authorization": f"Bearer {token}"}, timeout=20
+            "https://api.apify.com/v2/me",
+            headers={"Authorization": f"Bearer {token}"},
+            timeout=20,
         )
         results.append(status(r.ok, "Apify", f"HTTP {r.status_code}"))
     except Exception as e:
@@ -30,14 +32,19 @@ def main() -> None:
 
     # RealPhoneValidation - no free ping; check env
     results.append(
-        status(bool(os.getenv("REALPHONEVALIDATION_API_KEY")), "RealPhoneValidation", "env present")
+        status(
+            bool(os.getenv("REALPHONEVALIDATION_API_KEY")),
+            "RealPhoneValidation",
+            "env present",
+        )
     )
 
     # Hunter verify (ping domain)
     try:
         key = os.getenv("HUNTER_API_KEY")
         r = requests.get(
-            f"https://api.hunter.io/v2/domain-search?domain=example.com&api_key={key}", timeout=20
+            f"https://api.hunter.io/v2/domain-search?domain=example.com&api_key={key}",
+            timeout=20,
         )
         results.append(status(r.ok, "Hunter.io", f"HTTP {r.status_code}"))
     except Exception as e:
@@ -53,7 +60,11 @@ def main() -> None:
             timeout=20,
         )
         results.append(
-            status(r.status_code in (200, 404, 429), "Twilio Lookup", f"HTTP {r.status_code}")
+            status(
+                r.status_code in (200, 404, 429),
+                "Twilio Lookup",
+                f"HTTP {r.status_code}",
+            )
         )
     except Exception as e:
         results.append(status(False, "Twilio Lookup", str(e)))
@@ -67,7 +78,9 @@ def main() -> None:
             timeout=20,
         )
         results.append(
-            status(r.status_code in (200, 401, 403, 404), "ATTOM", f"HTTP {r.status_code}")
+            status(
+                r.status_code in (200, 401, 403, 404), "ATTOM", f"HTTP {r.status_code}"
+            )
         )
     except Exception as e:
         results.append(status(False, "ATTOM", str(e)))
@@ -88,7 +101,11 @@ def main() -> None:
             timeout=20,
         )
         results.append(
-            status(r.status_code in (200, 400, 403), "Google Places", f"HTTP {r.status_code}")
+            status(
+                r.status_code in (200, 400, 403),
+                "Google Places",
+                f"HTTP {r.status_code}",
+            )
         )
     except Exception as e:
         results.append(status(False, "Google Places", str(e)))
@@ -102,7 +119,9 @@ def main() -> None:
             timeout=20,
         )
         results.append(
-            status(r.status_code in (200, 400, 401, 403), "Apollo", f"HTTP {r.status_code}")
+            status(
+                r.status_code in (200, 400, 401, 403), "Apollo", f"HTTP {r.status_code}"
+            )
         )
     except Exception as e:
         results.append(status(False, "Apollo", str(e)))

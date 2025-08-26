@@ -44,9 +44,19 @@ def test_hunter_ping():
 @pytest.mark.skipif(not _has("REALPHONEVALIDATION_API_KEY"), reason="missing RPV key")
 def test_rpv_status_shape():
     # Not a real phone; expect either 200 with JSON or 4xx
-    params = {"output": "json", "phone": "5555555555", "token": os.getenv("REALPHONEVALIDATION_API_KEY")}
+    params = {
+        "output": "json",
+        "phone": "5555555555",
+        "token": os.getenv("REALPHONEVALIDATION_API_KEY"),
+    }
     r = requests.get(
-        os.getenv("REALPHONEVALIDATION_URL", os.getenv("REALVALIDATION_URL", "https://api.realvalidation.com/rpvWebService/TurboV3.php")),
+        os.getenv(
+            "REALPHONEVALIDATION_URL",
+            os.getenv(
+                "REALVALIDATION_URL",
+                "https://api.realvalidation.com/rpvWebService/TurboV3.php",
+            ),
+        ),
         params=params,
         timeout=20,
     )
@@ -55,7 +65,10 @@ def test_rpv_status_shape():
         _ = r.json()
 
 
-@pytest.mark.skipif(not _has("TWILIO_ACCOUNT_SID") or not _has("TWILIO_AUTH_TOKEN"), reason="missing Twilio creds")
+@pytest.mark.skipif(
+    not _has("TWILIO_ACCOUNT_SID") or not _has("TWILIO_AUTH_TOKEN"),
+    reason="missing Twilio creds",
+)
 def test_twilio_lookup_status():
     r = requests.get(
         "https://lookups.twilio.com/v1/PhoneNumbers/+15555555555?Type=carrier",
@@ -73,5 +86,3 @@ def test_google_places_status():
         timeout=20,
     )
     assert r.status_code in (200, 400, 403)
-
-

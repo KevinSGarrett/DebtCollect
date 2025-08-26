@@ -13,12 +13,14 @@
     rev: v1.1.404
     hooks:
       - id: pyright
+        args: [--project, debt-collectibility/pyrightconfig.json]
   - repo: local
     hooks:
       - id: mypy
-        name: mypy (changed files)
+        name: mypy (src only, changed files)
         entry: uv run mypy
         language: system
-        types_or: [python, pyi]
         pass_filenames: true
+        types_or: [python, pyi]
+        files: ^debt-collectibility/src/.*\.py$
         args: [--show-error-codes, --pretty]

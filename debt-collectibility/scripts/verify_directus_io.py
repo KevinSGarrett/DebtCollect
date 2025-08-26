@@ -27,7 +27,12 @@ def main() -> None:
         if not any_debtor:
             print(
                 json.dumps(
-                    {"directus_checks": {"emails_round_trip": False, "reason": "no debtor found"}}
+                    {
+                        "directus_checks": {
+                            "emails_round_trip": False,
+                            "reason": "no debtor found",
+                        }
+                    }
                 )
             )
             return

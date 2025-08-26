@@ -18,7 +18,9 @@ class MockDX:
         self._store.setdefault(collection, []).append(row)
         return row
 
-    def update_row(self, collection: str, id: Any, data: dict[str, Any]) -> dict[str, Any]:
+    def update_row(
+        self, collection: str, id: Any, data: dict[str, Any]
+    ) -> dict[str, Any]:
         for row in self._store.get(collection, []):
             if row.get("id") == id:
                 row.update(data)
@@ -29,8 +31,11 @@ class MockDX:
         rows = self._store.get(collection, [])
         self._store[collection] = [r for r in rows if r.get("id") != id]
 
-    def list_related(self, collection: str, filters: dict[str, Any], limit: int = 100) -> list[dict[str, Any]]:
+    def list_related(
+        self, collection: str, filters: dict[str, Any], limit: int = 100
+    ) -> list[dict[str, Any]]:
         rows = self._store.get(collection, [])
+
         # Extremely simple filter: only support equality on top-level fields for tests
         def matches(row: dict[str, Any]) -> bool:
             filt = filters or {}
@@ -93,7 +98,9 @@ def test_property_value_simulate(monkeypatch):
     debtor = _make_debtor()
     res = property_value.run(debtor, dx)
     assert res is None
-    props = dx.list_related("properties", {"debtor_id": {"_eq": debtor["id"]}}, limit=10)
+    props = dx.list_related(
+        "properties", {"debtor_id": {"_eq": debtor["id"]}}, limit=10
+    )
     assert props and props[0].get("market_value") is not None
 
 
@@ -136,7 +143,9 @@ def test_bankruptcy_run_with_mock(monkeypatch):
     dx = MockDX()
     debtor = _make_debtor()
 
-    def fake_search(full_name: str, city: str, state: str, zip5: str) -> list[dict[str, Any]]:
+    def fake_search(
+        full_name: str, city: str, state: str, zip5: str
+    ) -> list[dict[str, Any]]:
         return [
             {
                 "id": "X1",
@@ -155,7 +164,9 @@ def test_bankruptcy_run_with_mock(monkeypatch):
     monkeypatch.setattr(bankruptcy, "_courtlistener_search", fake_search)
     res = bankruptcy.run(debtor, dx)
     assert res is None
-    cases = dx.list_related("bankruptcy_cases", {"debtor_id": {"_eq": debtor["id"]}}, limit=10)
+    cases = dx.list_related(
+        "bankruptcy_cases", {"debtor_id": {"_eq": debtor["id"]}}, limit=10
+    )
     assert cases and cases[0].get("case_number") == "22-12345"
 
 
@@ -166,12 +177,16 @@ def test_business_lookup_with_mock(monkeypatch):
     debtor = _make_debtor()
 
     def fake_places(query: str, lat: float | None, lng: float | None) -> dict[str, Any]:
-        return {"results": [{"name": "KG Plumbing", "website": "https://kg.example", "url": ""}]}
+        return {
+            "results": [
+                {"name": "KG Plumbing", "website": "https://kg.example", "url": ""}
+            ]
+        }
 
     monkeypatch.setattr(business_lookup, "_google_places_search", fake_places)
     out = business_lookup.run(debtor, dx)
     assert out is not None and out.get("business_confidence", 0) >= 50
-    links = dx.list_related("debtor_businesses", {"debtor_id": {"_eq": debtor["id"]}}, limit=10)
+    links = dx.list_related(
+        "debtor_businesses", {"debtor_id": {"_eq": debtor["id"]}}, limit=10
+    )
     assert links, "should link debtor to a business when result exists"
-
-

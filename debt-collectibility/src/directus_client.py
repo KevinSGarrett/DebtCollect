@@ -54,7 +54,9 @@ class DirectusClient:
         return f"{self.base_url}/items/{collection}"
 
     @retry(
-        wait=wait_exponential_jitter(initial=0.5, max=8), stop=stop_after_attempt(5), reraise=True
+        wait=wait_exponential_jitter(initial=0.5, max=8),
+        stop=stop_after_attempt(5),
+        reraise=True,
     )
     def _request(self, method: str, url: str, **kwargs: Any) -> requests.Response:
         resp = self.session.request(method, url, timeout=30, **kwargs)
@@ -81,7 +83,9 @@ class DirectusClient:
         url = self._items_url("debtors")
         # Filter enrichment_status in ['pending','partial']
         params = {
-            "filter": json.dumps({"enrichment_status": {"_in": ["pending", "partial"]}}),
+            "filter": json.dumps(
+                {"enrichment_status": {"_in": ["pending", "partial"]}}
+            ),
             "limit": limit,
         }
         resp = self._request("GET", url, params=params)
@@ -93,7 +97,9 @@ class DirectusClient:
         resp = self._request("POST", url, json=data)
         return resp.json().get("data")
 
-    def update_row(self, collection: str, id: Any, data: dict[str, Any]) -> dict[str, Any]:
+    def update_row(
+        self, collection: str, id: Any, data: dict[str, Any]
+    ) -> dict[str, Any]:
         url = f"{self._items_url(collection)}/{id}"
         resp = self._request("PATCH", url, json=data)
         return resp.json().get("data")

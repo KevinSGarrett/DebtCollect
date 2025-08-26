@@ -78,7 +78,9 @@ def main() -> None:
                             }
                         }
                     )
-                    log.info(f"Debtor {debtor_id} stage={stage_name} seconds={elapsed:.2f}")
+                    log.info(
+                        f"Debtor {debtor_id} stage={stage_name} seconds={elapsed:.2f}"
+                    )
                 except Exception as se:
                     elapsed = time.perf_counter() - t0
                     stage_results.append(
@@ -90,7 +92,9 @@ def main() -> None:
                             }
                         }
                     )
-                    log.exception(f"Stage {stage_name} failed for debtor {debtor_id}: {se}")
+                    log.exception(
+                        f"Stage {stage_name} failed for debtor {debtor_id}: {se}"
+                    )
                     # Continue to next stage
 
             dx.update_row(
@@ -127,7 +131,9 @@ def main() -> None:
                         },
                     )
                 except Exception as e2:
-                    log.warning(f"Unable to write error to enrichment_run {run_id}: {e2}")
+                    log.warning(
+                        f"Unable to write error to enrichment_run {run_id}: {e2}"
+                    )
 
 
 if __name__ == "__main__":

@@ -6,6 +6,7 @@ class TokenBucket:
     capacity: float
     tokens: float
     rate_per_sec: float
+
     def __init__(self, rate_per_sec: float, capacity: int) -> None:
         # Use floats internally to allow fractional refills
         self.capacity = float(capacity)

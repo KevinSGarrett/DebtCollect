@@ -19,7 +19,10 @@ from src.stages import (
 pytestmark = pytest.mark.e2e
 
 
-@pytest.mark.skipif(not os.getenv("DIRECTUS_URL") or not os.getenv("DIRECTUS_TOKEN"), reason="Directus not configured")
+@pytest.mark.skipif(
+    not os.getenv("DIRECTUS_URL") or not os.getenv("DIRECTUS_TOKEN"),
+    reason="Directus not configured",
+)
 def test_full_pipeline_simulated_env(monkeypatch):
     # Use SIMULATE=1 to avoid external API calls but still exercise DB IO
     monkeypatch.setenv("SIMULATE", "1")
@@ -68,8 +71,12 @@ def test_full_pipeline_simulated_env(monkeypatch):
         addrs = dx.list_related("addresses", {"debtor_id": {"_eq": debtor_id}}, limit=5)
         phones = dx.list_related("phones", {"debtor_id": {"_eq": debtor_id}}, limit=50)
         emails = dx.list_related("emails", {"debtor_id": {"_eq": debtor_id}}, limit=50)
-        props = dx.list_related("properties", {"debtor_id": {"_eq": debtor_id}}, limit=10)
-        snaps = dx.list_related("scoring_snapshots", {"debtor_id": {"_eq": debtor_id}}, limit=5)
+        props = dx.list_related(
+            "properties", {"debtor_id": {"_eq": debtor_id}}, limit=10
+        )
+        snaps = dx.list_related(
+            "scoring_snapshots", {"debtor_id": {"_eq": debtor_id}}, limit=5
+        )
 
         assert addrs, "address row should exist"
         assert phones or emails, "contacts should be created in simulate"
@@ -78,12 +85,18 @@ def test_full_pipeline_simulated_env(monkeypatch):
 
     finally:
         # Cleanup created artifacts
-        for coll in ("phones", "emails", "properties", "addresses", "scoring_snapshots"):
-            for row in dx.list_related(coll, {"debtor_id": {"_eq": debtor_id}}, limit=200):
+        for coll in (
+            "phones",
+            "emails",
+            "properties",
+            "addresses",
+            "scoring_snapshots",
+        ):
+            for row in dx.list_related(
+                coll, {"debtor_id": {"_eq": debtor_id}}, limit=200
+            ):
                 try:
                     dx.delete_row(coll, row.get("id"))
                 except Exception:
                     pass
         dx.delete_row("debtors", debtor_id)
-
-

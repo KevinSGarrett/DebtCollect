@@ -49,7 +49,9 @@ def to_e164(raw_phone: str, default_region: str = "US") -> str | None:
         return None
     try:
         parsed = phonenumbers.parse(raw_phone, default_region)
-        if not phonenumbers.is_possible_number(parsed) or not phonenumbers.is_valid_number(parsed):
+        if not phonenumbers.is_possible_number(
+            parsed
+        ) or not phonenumbers.is_valid_number(parsed):
             return None
         return phonenumbers.format_number(parsed, phonenumbers.PhoneNumberFormat.E164)
     except Exception:

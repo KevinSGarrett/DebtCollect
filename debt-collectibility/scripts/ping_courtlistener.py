@@ -13,14 +13,18 @@ if ROOT not in sys.path:
 
 def main():
     load_dotenv()
-    base = os.getenv("COURTLISTENER_API", "https://www.courtlistener.com/api/rest/v4/dockets/")
+    base = os.getenv(
+        "COURTLISTENER_API", "https://www.courtlistener.com/api/rest/v4/dockets/"
+    )
     token = os.getenv("COURTLISTENER_API_TOKEN")
     headers = {"Accept": "application/json"}
     if token:
         headers["Authorization"] = f"Token {token}"
 
     try:
-        r = requests.get("https://www.courtlistener.com/api/rest/v4/", headers=headers, timeout=20)
+        r = requests.get(
+            "https://www.courtlistener.com/api/rest/v4/", headers=headers, timeout=20
+        )
         print(f"root status={r.status_code}")
     except Exception as e:
         print(f"root error: {e}")

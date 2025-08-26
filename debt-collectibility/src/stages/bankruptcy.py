@@ -11,14 +11,18 @@ from src.utils.logger import get_logger
 from src.utils.matching import name_similarity
 
 
-def _courtlistener_search(full_name: str, city: str, state: str, zip5: str) -> list[dict[str, Any]]:
+def _courtlistener_search(
+    full_name: str, city: str, state: str, zip5: str
+) -> list[dict[str, Any]]:
     """Search CourtListener dockets by party name; filter to likely bankruptcy dockets.
 
     CourtListener dockets API: /api/rest/v3/dockets/?party_name=...&court__type=bankruptcy
     We use token auth if provided.
     """
     # Prefer v4 per documentation; allow override via env
-    base = os.getenv("COURTLISTENER_API", "https://www.courtlistener.com/api/rest/v4/dockets/")
+    base = os.getenv(
+        "COURTLISTENER_API", "https://www.courtlistener.com/api/rest/v4/dockets/"
+    )
     token = os.getenv("COURTLISTENER_API_TOKEN")
     params = {
         "party_name": full_name,
@@ -77,7 +81,9 @@ def _courtlistener_search(full_name: str, city: str, state: str, zip5: str) -> l
         }
         for attempt in range(2):
             try:
-                resp = requests.get(base, params=params_fallback, headers=headers, timeout=30)
+                resp = requests.get(
+                    base, params=params_fallback, headers=headers, timeout=30
+                )
                 resp.raise_for_status()
                 payload = resp.json()
                 results = payload.get("results", [])
@@ -92,12 +98,16 @@ def _courtlistener_search(full_name: str, city: str, state: str, zip5: str) -> l
     for r in results:
         # Determine status from termination date
         status_val = (
-            "terminated" if (r.get("date_terminated") or r.get("dateTerminated")) else "open"
+            "terminated"
+            if (r.get("date_terminated") or r.get("dateTerminated"))
+            else "open"
         )
         mapped.append(
             {
                 "id": r.get("id"),
-                "case_number": r.get("docket_number") or r.get("case_number") or r.get("id"),
+                "case_number": r.get("docket_number")
+                or r.get("case_number")
+                or r.get("id"),
                 "court": r.get("court_id") or r.get("court"),
                 "chapter": r.get("chapter"),
                 "filed_date": r.get("date_filed") or r.get("dateFiled"),
@@ -159,7 +169,10 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
             if ext_id:
                 exists = dx.list_related(
                     "bankruptcy_cases",
-                    {"debtor_id": {"_eq": debtor.get("id")}, "case_number": {"_eq": ext_id}},
+                    {
+                        "debtor_id": {"_eq": debtor.get("id")},
+                        "case_number": {"_eq": ext_id},
+                    },
                     limit=1,
                 )
             if exists:

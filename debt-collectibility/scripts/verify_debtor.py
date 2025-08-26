@@ -17,7 +17,9 @@ def main() -> None:
     load_dotenv()
     dx = DirectusClient.from_env()
     debtors = dx.list_related(
-        "debtors", {"first_name": {"_eq": "Kevin"}, "last_name": {"_eq": "Garrett"}}, limit=5
+        "debtors",
+        {"first_name": {"_eq": "Kevin"}, "last_name": {"_eq": "Garrett"}},
+        limit=5,
     )
     if not debtors:
         print(json.dumps({"error": "debtor not found"}))
@@ -37,7 +39,9 @@ def main() -> None:
     properties = safe_list("properties", {"debtor_id": {"_eq": debtor_id}})
     businesses = safe_list("debtor_businesses", {"debtor_id": {"_eq": debtor_id}})
     bankruptcies = safe_list("bankruptcy_cases", {"debtor_id": {"_eq": debtor_id}})
-    snapshots = safe_list("scoring_snapshots", {"debtor_id": {"_eq": debtor_id}}, limit=5)
+    snapshots = safe_list(
+        "scoring_snapshots", {"debtor_id": {"_eq": debtor_id}}, limit=5
+    )
     runs = safe_list("enrichment_runs", {"debtor_id": {"_eq": debtor_id}}, limit=5)
 
     out = {

@@ -26,9 +26,16 @@ class FakeDX:
 def test_scoring_bounds_and_penalties():
     from src.stages.scoring import run
 
-    debtor = {"id": 1, "usps_standardized": True, "debt_owed": 1000, "business_confidence": 70}
+    debtor = {
+        "id": 1,
+        "usps_standardized": True,
+        "debt_owed": 1000,
+        "business_confidence": 70,
+    }
     dx = FakeDX(
-        phones=[{"is_verified": True, "line_type": "mobile", "last_seen": "2024-02-01"}],
+        phones=[
+            {"is_verified": True, "line_type": "mobile", "last_seen": "2024-02-01"}
+        ],
         emails=[{"is_verified": True, "hunter_score": 95}],
         cases=[{"chapter": "7", "discharged_date": "2023-01-01"}],
         properties=[{"market_value": 200000, "owner_occupied": True}],
@@ -42,7 +49,12 @@ def test_scoring_bounds_and_penalties():
 def test_scoring_clamps_low():
     from src.stages.scoring import run
 
-    debtor = {"id": 1, "usps_standardized": False, "debt_owed": 1000000, "business_confidence": 0}
+    debtor = {
+        "id": 1,
+        "usps_standardized": False,
+        "debt_owed": 1000000,
+        "business_confidence": 0,
+    }
     dx = FakeDX(
         phones=[{"is_verified": False}],
         emails=[{"is_verified": False}],

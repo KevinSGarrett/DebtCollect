@@ -30,7 +30,9 @@ def upsert_debtor(
     if existing:
         debtor = existing[0]
         dx.update_row(
-            "debtors", debtor["id"], {"debt_owed": float(debt), "enrichment_status": "pending"}
+            "debtors",
+            debtor["id"],
+            {"debt_owed": float(debt), "enrichment_status": "pending"},
         )
         return int(debtor["id"])
     created = dx.create_row(
@@ -98,14 +100,21 @@ def main() -> None:
     load_dotenv("../.env")
     dx = DirectusClient.from_env()
 
-    addr = {"line1": "1212 N Loop 336 W", "city": "Conroe", "state": "TX", "zip": "77301"}
+    addr = {
+        "line1": "1212 N Loop 336 W",
+        "city": "Conroe",
+        "state": "TX",
+        "zip": "77301",
+    }
 
     # Seed the three Garrett family members
     kevin_id = upsert_debtor(dx, "Kevin", "Garrett", addr, 25000)
     dana_id = upsert_debtor(dx, "Dana", "Garrett", addr, 20000)
     linda_id = upsert_debtor(dx, "Linda", "Garrett", addr, 18000)
 
-    print(f"Seeded Garrett family: Kevin({kevin_id}), Dana({dana_id}), Linda({linda_id})")
+    print(
+        f"Seeded Garrett family: Kevin({kevin_id}), Dana({dana_id}), Linda({linda_id})"
+    )
 
     # Test each one
     test_apify_results(dx, kevin_id, "Kevin", "Garrett")

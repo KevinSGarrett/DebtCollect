@@ -31,7 +31,10 @@ def _rpv_lookup(phone_e164: str) -> dict[str, Any]:
     api_key = _required_env("REALPHONEVALIDATION_API_KEY")
     base_url = os.getenv(
         "REALPHONEVALIDATION_URL",
-        os.getenv("REALVALIDATION_URL", "https://api.realvalidation.com/rpvWebService/TurboV3.php"),
+        os.getenv(
+            "REALVALIDATION_URL",
+            "https://api.realvalidation.com/rpvWebService/TurboV3.php",
+        ),
     )
     # Normalize to 10 digits
     digits = re.sub(r"\D", "", phone_e164 or "")
@@ -87,7 +90,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
     """
     log = get_logger()
     debtor_id = debtor.get("id")
-    debtor_name = f"{debtor.get('first_name', '')} {debtor.get('last_name', '')}".strip()
+    debtor_name = (
+        f"{debtor.get('first_name', '')} {debtor.get('last_name', '')}".strip()
+    )
     # address not used directly; verification relies on phone/email checks
 
     log.info(f"Verifying contacts for debtor {debtor_id}: {debtor_name}")
@@ -149,9 +154,15 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
 
             if is_verified:
                 verified_phones.append(
-                    {**ph, "is_verified": True, "verification_score": verification_score}
+                    {
+                        **ph,
+                        "is_verified": True,
+                        "verification_score": verification_score,
+                    }
                 )
-                log.info(f"Phone {e164} verified via RPV with score {verification_score}")
+                log.info(
+                    f"Phone {e164} verified via RPV with score {verification_score}"
+                )
             else:
                 log.info(f"Phone {e164} failed RPV verification: {status}")
 
@@ -186,14 +197,20 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
 
                 if is_verified:
                     verified_phones.append(
-                        {**ph, "is_verified": True, "verification_score": verification_score}
+                        {
+                            **ph,
+                            "is_verified": True,
+                            "verification_score": verification_score,
+                        }
                     )
                     log.info(f"Phone {e164} verified via Twilio fallback")
                 else:
                     log.info(f"Phone {e164} failed Twilio verification")
 
             except Exception as twilio_error:
-                log.error(f"Both RPV and Twilio failed for phone {e164}: {twilio_error}")
+                log.error(
+                    f"Both RPV and Twilio failed for phone {e164}: {twilio_error}"
+                )
                 # Mark as unverified
                 dx.update_row(
                     "phones",
@@ -241,7 +258,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
             )
 
             if is_verified:
-                verified_emails.append({**em, "is_verified": True, "hunter_score": score})
+                verified_emails.append(
+                    {**em, "is_verified": True, "hunter_score": score}
+                )
                 log.info(f"Email {email} verified via Hunter.io with score {score}")
             else:
                 log.info(f"Email {email} failed Hunter.io verification: {status}")
@@ -257,10 +276,14 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                     {
                         "is_verified": False,
                         "hunter_score": 0,
-                        "raw_payload": json.dumps({"error": f"Hunter.io failed: {e!s}"}),
+                        "raw_payload": json.dumps(
+                            {"error": f"Hunter.io failed: {e!s}"}
+                        ),
                     },
                 )
-                log.info(f"Email {email} marked as unverified due to verification failure")
+                log.info(
+                    f"Email {email} marked as unverified due to verification failure"
+                )
 
             except Exception as update_error:
                 log.error(f"Failed to update email {email}: {update_error}")
@@ -283,7 +306,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
     # Enforce policy: only keep verified contacts that also had strong match from skiptrace
     # Strong match is defined as match_strength >= 80
     try:
-        current_phones = dx.list_related("phones", {"debtor_id": {"_eq": debtor_id}}, limit=200)
+        current_phones = dx.list_related(
+            "phones", {"debtor_id": {"_eq": debtor_id}}, limit=200
+        )
         for ph in current_phones:
             ms = ph.get("match_strength") or 0
             # Ensure match_strength is numeric for comparison
@@ -299,7 +324,9 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
                     )
                 except Exception as e:
                     log.error(f"Failed to remove phone {ph.get('id')}: {e}")
-        current_emails = dx.list_related("emails", {"debtor_id": {"_eq": debtor_id}}, limit=200)
+        current_emails = dx.list_related(
+            "emails", {"debtor_id": {"_eq": debtor_id}}, limit=200
+        )
         for em in current_emails:
             ms = em.get("match_strength") or 0
             # Ensure match_strength is numeric for comparison
@@ -332,7 +359,7 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
             except (ValueError, TypeError):
                 score = 0
             return (score, p.get("last_seen") or "1900-01-01")
-        
+
         verified_phones.sort(key=phone_sort_key, reverse=True)
         best_phone_id = verified_phones[0].get("id")
         log.info(
@@ -348,7 +375,7 @@ def run(debtor: dict[str, Any], dx: Any) -> dict[str, Any] | None:
             except (ValueError, TypeError):
                 score = 0
             return score
-        
+
         verified_emails.sort(key=email_sort_key, reverse=True)
         best_email_id = verified_emails[0].get("id")
         log.info(

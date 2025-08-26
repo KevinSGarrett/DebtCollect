@@ -43,7 +43,10 @@ def enrich_emails(first_name: str, last_name: str) -> dict[str, int]:
 
 def property_signal(possible_address: str | None) -> dict[str, float | int]:
     has_addr = 1 if possible_address else 0
-    return {"property_present": has_addr, "owner_occupied_likelihood": 0.6 if has_addr else 0.0}
+    return {
+        "property_present": has_addr,
+        "owner_occupied_likelihood": 0.6 if has_addr else 0.0,
+    }
 
 
 def score_collectibility(features: dict[str, Any]) -> tuple[int, str]:

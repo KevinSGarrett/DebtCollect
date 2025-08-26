@@ -1,0 +1,11 @@
+﻿[FORMAT]
+max-line-length=120
+
+[MESSAGES CONTROL]
+# We’ll allow f-strings in logging, imports inside functions, catch-all exceptions,
+# and missing `from e` (you can re-enable later if you prefer stricter linting).
+disable=
+    logging-fstring-interpolation,
+    import-outside-toplevel,
+    broad-exception-caught,
+    raise-missing-from

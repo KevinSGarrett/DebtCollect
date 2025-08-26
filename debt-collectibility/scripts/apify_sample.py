@@ -8,7 +8,12 @@ from dotenv import load_dotenv
 
 
 def run_sample(
-    first_name: str, last_name: str, address_line1: str, city: str, state: str, zip5: str
+    first_name: str,
+    last_name: str,
+    address_line1: str,
+    city: str,
+    state: str,
+    zip5: str,
 ) -> dict:
     load_dotenv()
     token = os.getenv("APIFY_TOKEN")
@@ -34,7 +39,9 @@ def run_sample(
     except ValueError:
         # fallback to dataset items
         ds = requests.post(
-            f"{base}/run-sync-get-dataset-items?token={token}", json=payload, timeout=120
+            f"{base}/run-sync-get-dataset-items?token={token}",
+            json=payload,
+            timeout=120,
         )
         ds.raise_for_status()
         try:
@@ -44,5 +51,7 @@ def run_sample(
 
 
 if __name__ == "__main__":
-    data = run_sample("Dana", "Garrett", "1212 N Loop 336 West", "Conroe", "TX", "77301")
+    data = run_sample(
+        "Dana", "Garrett", "1212 N Loop 336 West", "Conroe", "TX", "77301"
+    )
     print(json.dumps(data, default=str))
