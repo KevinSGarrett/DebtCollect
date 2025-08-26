@@ -1,13 +1,6 @@
-﻿{
+{
   "typeCheckingMode": "standard",
   "pythonVersion": "3.12",
   "include": ["src"],
-  "venvPath": "C:\\DebtCollect",
-  "venv": ".venv",
-  "executionEnvironments": [
-    { "root": ".", "extraPaths": ["./"] }
-  ],
-  "exclude": ["**/.venv", "**/__pycache__", "build", "dist", "tests", "scripts"],
-  "reportMissingImports": "none",
-  "reportMissingModuleSource": "none"
+  "exclude": ["**/.venv", "**/__pycache__", "build", "dist", "tests", "scripts"]
 }
