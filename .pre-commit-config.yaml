@@ -1,18 +1,7 @@
-repos:
-  - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: v0.4.10
-    hooks:
-      - id: ruff
-        args: [--fix]
-      - id: ruff-format
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.8.0
-    hooks:
-      - id: mypy
-        additional_dependencies: []
-        args: [--strict]
-  - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.9
-    hooks:
-      - id: bandit
-        args: ["-q", "-r", "debt_collectibility", "workflows"]
+﻿repos:
+- repo: https://github.com/Yelp/detect-secrets
+  rev: v1.5.0
+  hooks:
+    - id: detect-secrets
+      args: ["--baseline", ".secrets.baseline"]
+      pass_filenames: false
